@@ -1,0 +1,71 @@
+{% comment %} iframe drawer for brochure. triggered by brochure-btn-mobile & brochure-btn-desktop - am {% endcomment %}
+
+<div id="why-outer-modal" class="media-drwr-container">
+  <div id="brochure-drwr-overlay" style="background-color: rgba(0, 0, 0, 0.507);"></div>
+  <div id="brochure-drawer" class="drawer drawer--right ">
+    <div id="why-modal-inner">
+      <span class="close-why-popup">&times;</span>
+      <div class="brochure-drwr-inner">
+        <iframe id="brochure-iframe" src="https://cdn.shopify.com/s/files/1/0056/9632/3651/files/Vidlogix-Catalog.pdf?v=1687482728"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+  
+{% style %}
+  #brochure-drwr-overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    background-color: rgba(0,0,0,.4);
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 100000;
+  }
+  #brochure-drawer {
+    display: none;
+    z-index: 10000000000;
+  }
+  .media-drwr-container .drawer--right {
+    /*width: 997px;*/
+    width: 1200px;
+  }
+  /*@media screen and (max-width: 997px) {*/
+  @media screen and (max-width: 1200px) {
+    .media-drwr-container .drawer--right {
+      width: 100vw;
+    }
+  }
+
+  .brochure-drwr-inner {
+    /*padding: .25rem 0.625rem 0 2.5rem;*/
+    padding: .25rem 0 0 2.5rem;
+    /*height: calc(100vh - 5.3125rem);*/
+    height: calc(100vh - 4.3125rem);
+  }
+  /*@media screen and (max-width: 997px) {*/
+  @media screen and (max-width: 1200px) {
+    .brochure-drwr-inner {
+      padding: .25rem 0.625rem 0 .5rem;
+    }
+  }
+
+  #brochure-iframe {
+    width: 100%;
+    border: none;
+    height: 100%;
+    overflow-y: scroll!important; 
+  }
+
+  #brochure-btn-desktop {
+    cursor: pointer;
+  }
+
+  .brochure-drwr-inner {
+    overflow: auto !important; 
+    overflow-y: scroll!important; 
+  }
+{% endstyle %}

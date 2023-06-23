@@ -20,6 +20,11 @@ window.onload = function(){
   var recentViewModal = document.getElementById("recent-view-popup"); // recent view with history
   var recentViewModal2 = document.getElementById("none-recent-popup"); // no recent view avalable
   var recentViewBtn = document.getElementById("recent-view-btn");    // trigger
+  // Brochure Drawer iframe
+  var brochureDrawer = document.getElementById("brochure-drawer");
+  var brochureDrwrOverlay = document.getElementById("brochure-drwr-overlay");
+  var brochureBtnDesktop = document.getElementById("brochure-btn-desktop");   // iframe trigger only
+  var brochureBtnMobile = document.getElementById('brochure-btn-mobile');     // <a> for link
 
   Object.keys(mediaBtnDesktop).forEach((key) => {
     mediaLinkDesktop[key] = mediaBtnDesktop[key].getAttribute("data-iframe-link");
@@ -32,6 +37,14 @@ window.onload = function(){
       mediaDrwrOverlay.style.display = "block";
     }
   });
+
+  if (brochureBtnDesktop != null) {
+    brochureBtnDesktop.onclick = function() {
+      brochureDrawer.style.display = "block";
+      brochureDrawer.classList.add('drawer--is-open');
+      brochureDrwrOverlay.style.display = "block";
+    }
+  }
 
   if (btn != null){
     btn.onclick = function() {
@@ -82,6 +95,17 @@ window.onload = function(){
     }
   }
 
+  // toggles display of brochure iframe and <a> link
+  if (brochureBtnDesktop != null && brochureBtnMobile != null){
+    if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+      brochureBtnMobile.style.display = "inline-block";
+      brochureBtnDesktop.style.display = "none";
+    }else{
+      brochureBtnMobile.style.display = "none";
+      brochureBtnDesktop.style.display = "inline-block";
+    }
+  }
+
   document.addEventListener(
     "click",
     function(event) {
@@ -115,6 +139,10 @@ window.onload = function(){
     if (mediaDrawer != null && mediaDrwrOverlay != null) {
       mediaDrawer.style.display = "none";
       mediaDrwrOverlay.style.display = "none";
+    }
+    if (brochureDrawer != null && brochureDrwrOverlay != null) {
+      brochureDrawer.style.display = "none";
+      brochureDrwrOverlay.style.display = "none";
     }
     if (recentViewModal != null) {
       recentViewModal.style.display = "none";

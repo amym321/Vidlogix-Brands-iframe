@@ -70,8 +70,12 @@
         {% endfor %}
       </ul>
       <div class="bottom-link">
-        <a href="{{ section.settings.more_link }}" class="btn hero__btn">Shop all Brands</a>
+        {% comment %} <a href="{{ section.settings.more_link }}" class="btn hero__btn">Shop all Brands</a> {% endcomment %}
+        {% comment %} iframe drawer for brochure - am {% endcomment %}
+        <a id="brochure-btn-mobile" style="display:none;" class="btn hero__btn" target="_blank" href="https://cdn.shopify.com/s/files/1/0056/9632/3651/files/Vidlogix-Catalog.pdf?v=1687482728" title="Vidlogix Brochure">{{ section.settings.button_text }}</a>
+        <a id="brochure-btn-desktop" style="display:none;" class="btn hero__btn" title="Vidlogix Brochure">{{ section.settings.button_text }}</a>
       </div>
+      {% render 'brochure-drawer' %}
     </div>
   
     {% if section.blocks.size == 0 %}
@@ -137,10 +141,16 @@
         "step": 1,
         "default": 3
       },
+      {
+        "type":"text",
+        "id":"button_text",
+        "label":"Text for button",
+        "default": "View Brochure"
+      },
     {
       "type":"url",
       "id":"more_link",
-      "label":"All Brands Link"
+      "label":"Button Link"
     }
     ],
     "blocks": [
