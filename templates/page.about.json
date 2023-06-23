@@ -1,0 +1,251 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "164020623464833959": {
+      "type": "company-tabs",
+      "settings": {
+        "sub_menu_link_list": "company-sub-menu"
+      }
+    },
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slideshow-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Meet Vidlogix",
+            "title_size": 57,
+            "subheading": "",
+            "chat_widget": false,
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_color": "#ffffff",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/banner_about.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "slideshow-0"
+      ],
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": false,
+        "autoplay_speed": 5
+      }
+    },
+    "1640050141300482f2": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/who_img_948da193-f703-4390-95ec-b8bb3d505d44.png",
+        "image_width": 700,
+        "full_width": false,
+        "subtitle": "",
+        "title": "Our Founders",
+        "center_title": true,
+        "text_below": true,
+        "text": "<p>Technology is ever changing. Having a long-standing, proven expert on your home project can make daily experiences magical. For more than 50 years, Vidlogix has been designing and delivering smart, beautiful technology that elevates décor and simplifies the way you connect and live. We are firmly committed to providing clients with a whole new way to enjoy their time at home, from the highest quality music and video entertainment to transformative lighting, shading and smart home systems. Experience the difference today with Vidlogix’s passion for performance, reliability and service.<\/p><p><strong>– Andy and Rich, Co-Founders<\/strong><\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "center",
+        "button_chat": false,
+        "button_popup": false,
+        "disclaimer": "",
+        "background_color": "#f8f6f7",
+        "text_color": "",
+        "layout": "bottom",
+        "title_bottom_margin": 95,
+        "image_bottom_margin": 95,
+        "divider": false
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "Our Team"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Vidlogix is 100% employee-owned. Shares of stock are allocated to employees once a year through our Employee Stock Ownership Plan (ESOP), a Qualified Retirement Plan. We think this is the best way to accomplish our goals for all stakeholders. As employee-owners, we create a workplace that embraces respect, trust, open communication, and personal fulfillment through honest, hard work.<\/p>",
+            "beacon_popup": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "7882cd96-7f20-441c-861a-d3b396675b26": {
+      "type": "hero-video",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "",
+        "title_size": 80,
+        "subheading": "",
+        "link_text": "",
+        "link": "",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/619f2b86eeb0429dbc291bbf729624bb.mp4",
+        "overlay_opacity": 0,
+        "section_height": "100vh",
+        "mobile_height": "100vh"
+      }
+    },
+    "63d66f01-1fa7-4463-8ff1-6075569ca9e7": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--14886801014851__63d66f01-1fa7-4463-8ff1-6075569ca9e7-16836667670bfdad39-1": {
+          "type": "liquid",
+          "settings": {
+            "code": ".",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--14886801014851__63d66f01-1fa7-4463-8ff1-6075569ca9e7-16836667670bfdad39-1"
+      ],
+      "custom_css": [
+        "@media (min-width: 769px) {.index-section {margin: 25px 0; }}",
+        "@media (max-width: 768px) {.index-section {display: none; }}"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "19ea0694-57d4-4d79-8f9a-d6db5dd02aef": {
+      "type": "testimonials-about",
+      "blocks": {
+        "1b36881a-090b-4697-9663-e15b1daab294": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial_title": "I placed my order",
+            "testimonial": "<p>I placed my order with Vidlogix and before they sent it out they called me to make sure they had all the correct information was correct and double check my information. What other company does that? I had my order 2 days later. I've ordered from these guys before and have never been disappointed. What I like is you have lifetime tech support for whatever you purchase from these guys. They are always the first place I go to.<\/p>",
+            "author": "Carson",
+            "author_info": "",
+            "invited": true
+          }
+        },
+        "1e97536a-c527-4701-9f91-dcd4a8973713": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial_title": "Vidlogix is great",
+            "testimonial": "<p>The ease of finding what I needed and the way they are able to guide you through what is needed to install whatever you buy. Also, placing the order was easy and the price was low.<\/p>",
+            "author": "Dana",
+            "author_info": "",
+            "invited": true
+          }
+        },
+        "3ffdd206-423b-4af7-8dc4-50b17b427a45": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial_title": "Wireless adapter for...",
+            "testimonial": "<p>You stocked the product I needed and delivery was a lot faster than I expected. The wireless adapter that I purchased was easy to install and it works perfectly as advertised. Thank you, for the great service.<\/p>",
+            "author": "Walt Warren",
+            "author_info": "",
+            "invited": true
+          }
+        },
+        "3bcabcfb-5161-4638-a6bd-f95a7bfc06a8": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial_title": "I ordered Sonos stuff...",
+            "testimonial": "<p>I ordered Sonos stuff from this website. Now it's not that easy to get Sonos these days and vidlogix had what I needed in stock and shipped the same day I placed my order. I got tracking later the same day and received my stuff two days later. I'm gunna get my sound stuff from there for now on.<\/p>",
+            "author": "Jon",
+            "author_info": "",
+            "invited": true
+          }
+        },
+        "348c0e37-8288-4a27-b096-38785a013dd8": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial_title": "I had gone to Best Buy",
+            "testimonial": "<p>I had gone to Best Buy and they said it would take a month to get the part. Vidlogix had it delivered to me within 48 hours. I just wish I could use Vidlogix for service required in the house!<\/p>",
+            "author": "Charmaine Mortley-Wood",
+            "author_info": "",
+            "invited": true
+          }
+        },
+        "b9d93175-22cb-40ac-bde4-76cfefe69556": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial_title": "Vidlogix has been my...",
+            "testimonial": "<p>Vidlogix has been my go-to source for products and advice for some time now. They always hit the ball out of the park. Over the past few years, I've updated a lot of my equipment - amp, speakers, cd player, turntable, accessories. They've given great advice in product choice decisions. Obviously carry top brands. And great followup tech support on any issues.<\/p>",
+            "author": "Mark Vorder Bruegge Jr.",
+            "author_info": "",
+            "invited": true
+          }
+        }
+      },
+      "block_order": [
+        "1b36881a-090b-4697-9663-e15b1daab294",
+        "1e97536a-c527-4701-9f91-dcd4a8973713",
+        "3ffdd206-423b-4af7-8dc4-50b17b427a45",
+        "3bcabcfb-5161-4638-a6bd-f95a7bfc06a8",
+        "348c0e37-8288-4a27-b096-38785a013dd8",
+        "b9d93175-22cb-40ac-bde4-76cfefe69556"
+      ],
+      "settings": {
+        "title": "See what people are saying about us",
+        "align_text": "left",
+        "more_link": "https:\/\/www.trustpilot.com\/review\/vidlogix.com?utm_medium=trustbox&utm_source=Slider",
+        "average_rating": "4.8",
+        "total_reviews": "78",
+        "stars-5": "shopify:\/\/shop_images\/5_stars_3_8950ab16-d5d3-4f43-b0cc-4bc370503789.jpg",
+        "stars-4-5": "shopify:\/\/shop_images\/4.5_stars_3_69e34718-9bb9-4641-88a8-bf44309a0efe.jpg",
+        "stars-4": "shopify:\/\/shop_images\/4_stars_3_a867b97d-d1c9-46b9-a190-6067c36737fc.jpg",
+        "logo": "shopify:\/\/shop_images\/logo_3369a90c-3de9-4c59-ac7a-047646105c00.png",
+        "color_background": "#f8f6f7",
+        "color_text": "#1c1d1d"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "164020623464833959",
+    "slideshow",
+    "1640050141300482f2",
+    "rich-text",
+    "7882cd96-7f20-441c-861a-d3b396675b26",
+    "63d66f01-1fa7-4463-8ff1-6075569ca9e7",
+    "19ea0694-57d4-4d79-8f9a-d6db5dd02aef"
+  ]
+}

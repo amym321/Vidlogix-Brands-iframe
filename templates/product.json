@@ -1,0 +1,361 @@
+{
+  "sections": {
+    "1638402140320849a6": {
+      "type": "promo-grid",
+      "disabled": true,
+      "blocks": {
+        "9a9f3525-d3f4-4e3e-b463-cd49f39d935f": {
+          "type": "banner",
+          "settings": {
+            "heading": "",
+            "text": "Free shipping on US orders over $49",
+            "link": "",
+            "label": "",
+            "color_tint": "#f6c12f",
+            "color_tint_opacity": 20,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "9a9f3525-d3f4-4e3e-b463-cd49f39d935f"
+      ],
+      "settings": {
+        "full_width": true,
+        "gutter_size": 0,
+        "space_above": false,
+        "space_below": false
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "loox-rating": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": true,
+          "settings": {
+            "contentSize": 16,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "dropdown",
+            "color_swatches": false
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": false
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "disabled": true,
+          "settings": {
+            "inventory_threshold": 10,
+            "inventory_transfers_enable": false
+          }
+        },
+        "a1448bda-730b-4507-8fd1-2b0660b10919": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "22ec2a8a-2dc4-484e-ba20-389141c232b9": {
+          "type": "separator",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "price",
+        "loox-rating",
+        "variant_picker",
+        "buy_buttons",
+        "separator",
+        "description",
+        "inventory_status",
+        "a1448bda-730b-4507-8fd1-2b0660b10919",
+        "22ec2a8a-2dc4-484e-ba20-389141c232b9"
+      ],
+      "settings": {
+        "sku_enable": true,
+        "show_policies": false,
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "",
+        "related_count": 3,
+        "value_one": "Free 2-day ship & free 90-day returns",
+        "value_two": "Free one year extended warranty plan",
+        "condition_new": "Condition: New",
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_arrows": true,
+        "mobile_layout": "partial",
+        "enable_video_looping": true,
+        "product_video_style": "unmuted"
+      }
+    },
+    "1659635467b4378b21": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "disabled": true,
+      "settings": {
+        "max_width": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "reco heading",
+        "related_count": 2
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "settings": {
+        "recent_count": 4
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "1637459177d4db9b86": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "text-and-image": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/vidlogix_hq_cropped.jpg",
+        "image_width": 500,
+        "full_width": true,
+        "subtitle": "Support",
+        "title": "Real people, real advice.",
+        "center_title": false,
+        "text_below": false,
+        "text": "<p>We hire and extensively train our product advisors so that each one can speak from a place of confidence and expertise... which means when you need answers, we're ready with solutions tailored to you.<\/p><p><\/p>",
+        "button_label": "Meet our team",
+        "button_link": "shopify:\/\/pages\/about",
+        "button_style": "primary",
+        "align_text": "left",
+        "button_chat": false,
+        "button_popup": false,
+        "disclaimer": "",
+        "background_color": "#57545d",
+        "text_color": "#ffffff",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "4db580b1-2115-4bd5-a7eb-e028381e3f41": {
+      "type": "testimonials-about",
+      "blocks": {
+        "template--14938200277059__4db580b1-2115-4bd5-a7eb-e028381e3f41-16866008280212c890-0": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial_title": "I placed my order",
+            "testimonial": "<p>I placed my order with Vidlogix and before they sent it out they called me to make sure they had all the correct information was correct and double check my information. What other company does that? I had my order 2 days later. I've ordered from these guys before and have never been disappointed. What I like is you have lifetime tech support for whatever you purchase from these guys. They are always the first place I go to.<\/p>",
+            "author": "Carson",
+            "author_info": "",
+            "invited": true
+          }
+        },
+        "template--14938200277059__4db580b1-2115-4bd5-a7eb-e028381e3f41-16866008280212c890-1": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial_title": "Vidlogix is great",
+            "testimonial": "<p>The ease of finding what I needed and the way they are able to guide you through what is needed to install whatever you buy. Also, placing the order was easy and the price was low.<\/p>",
+            "author": "Dana",
+            "author_info": "",
+            "invited": true
+          }
+        },
+        "template--14938200277059__4db580b1-2115-4bd5-a7eb-e028381e3f41-16866008280212c890-2": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial_title": "Wireless adapter for...",
+            "testimonial": "<p>You stocked the product I needed and delivery was a lot faster than I expected. The wireless adapter that I purchased was easy to install and it works perfectly as advertised. Thank you, for the great service.<\/p>",
+            "author": "Walt Warren",
+            "author_info": "",
+            "invited": true
+          }
+        },
+        "template--14938200277059__4db580b1-2115-4bd5-a7eb-e028381e3f41-16866008280212c890-3": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial_title": "I ordered Sonos stuff...",
+            "testimonial": "<p>I ordered Sonos stuff from this website. Now it's not that easy to get Sonos these days and vidlogix had what I needed in stock and shipped the same day I placed my order. I got tracking later the same day and received my stuff two days later. I'm gunna get my sound stuff from there for now on.<\/p>",
+            "author": "Jon",
+            "author_info": "",
+            "invited": true
+          }
+        },
+        "template--14938200277059__4db580b1-2115-4bd5-a7eb-e028381e3f41-16866008280212c890-4": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial_title": "I had gone to Best Buy",
+            "testimonial": "<p>I had gone to Best Buy and they said it would take a month to get the part. Vidlogix had it delivered to me within 48 hours. I just wish I could use Vidlogix for service required in the house!<\/p>",
+            "author": "Charmaine Mortley-Wood",
+            "author_info": "",
+            "invited": true
+          }
+        },
+        "17d60afe-618a-4390-8f48-6e3840427901": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial_title": "Vidlogix has been my...",
+            "testimonial": "<p>Vidlogix has been my go-to source for products and advice for some time now. They always hit the ball out of the park. Over the past few years, I've updated a lot of my equipment - amp, speakers, cd player, turntable, accessories. They've given great advice in product choice decisions. Obviously carry top brands. And great followup tech support on any issues.<\/p>",
+            "author": "Mark Vorder Bruegge Jr.",
+            "author_info": "",
+            "invited": true
+          }
+        }
+      },
+      "block_order": [
+        "template--14938200277059__4db580b1-2115-4bd5-a7eb-e028381e3f41-16866008280212c890-0",
+        "template--14938200277059__4db580b1-2115-4bd5-a7eb-e028381e3f41-16866008280212c890-1",
+        "template--14938200277059__4db580b1-2115-4bd5-a7eb-e028381e3f41-16866008280212c890-2",
+        "template--14938200277059__4db580b1-2115-4bd5-a7eb-e028381e3f41-16866008280212c890-3",
+        "template--14938200277059__4db580b1-2115-4bd5-a7eb-e028381e3f41-16866008280212c890-4",
+        "17d60afe-618a-4390-8f48-6e3840427901"
+      ],
+      "settings": {
+        "title": "See what people are saying about us",
+        "align_text": "left",
+        "more_link": "https:\/\/www.trustpilot.com\/review\/vidlogix.com?utm_medium=trustbox&utm_source=Slider",
+        "average_rating": "4.8",
+        "total_reviews": "78",
+        "stars-5": "shopify:\/\/shop_images\/5_stars_3_8950ab16-d5d3-4f43-b0cc-4bc370503789.jpg",
+        "stars-4-5": "shopify:\/\/shop_images\/4.5_stars_3_69e34718-9bb9-4641-88a8-bf44309a0efe.jpg",
+        "stars-4": "shopify:\/\/shop_images\/4_stars_3_a867b97d-d1c9-46b9-a190-6067c36737fc.jpg",
+        "logo": "shopify:\/\/shop_images\/logo_3369a90c-3de9-4c59-ac7a-047646105c00.png",
+        "color_background": "#f8f6f7",
+        "color_text": "#1c1d1d"
+      }
+    },
+    "1643590083d72e73b9": {
+      "type": "newsletter",
+      "disabled": true,
+      "blocks": {
+        "164359008339d9d726-0": {
+          "type": "title",
+          "settings": {
+            "title": "Never miss an offer"
+          }
+        },
+        "164359008339d9d726-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join the list to receive exclusive offers and updates. <br\/>Plus, enter to win a coveted Sonos Arc Soundbar.<\/p>"
+          }
+        },
+        "164359008339d9d726-2": {
+          "type": "form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "164359008339d9d726-0",
+        "164359008339d9d726-1",
+        "164359008339d9d726-2"
+      ],
+      "settings": {
+        "color_background": "#f9f9f9",
+        "color_text": "#1c1d1d",
+        "unsubscribe_text": "Contest Rules",
+        "unsubscribe_url": "shopify:\/\/pages\/contest",
+        "show_divider": false
+      }
+    },
+    "loox-product-reviews-app-section": {
+      "type": "apps",
+      "disabled": true,
+      "blocks": {
+        "loox-product-reviews": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": true,
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "loox-product-reviews"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "1638402140320849a6",
+    "main",
+    "1659635467b4378b21",
+    "sub",
+    "product-recommendations",
+    "recently-viewed",
+    "collection-return",
+    "1637459177d4db9b86",
+    "text-and-image",
+    "4db580b1-2115-4bd5-a7eb-e028381e3f41",
+    "1643590083d72e73b9",
+    "loox-product-reviews-app-section"
+  ]
+}

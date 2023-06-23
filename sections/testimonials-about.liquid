@@ -1,0 +1,481 @@
+{% comment %} code change per 4.1.1 customization {% endcomment %}
+{%- style -%}
+  .testimonials-about-{{ section.id }} {
+    background-color: {{ section.settings.color_background }};
+    color: {{ section.settings.color_text }};
+  }
+}
+{%- endstyle -%}
+
+<div
+  class="testimonials-about-section testimonials-section testimonials-about-{{ section.id }}{% if section.settings.color_background == settings.color_body_bg %} testimonials-section--with-divider{% endif %} text-{{ section.settings.align_text }}"
+  data-section-id="{{ section.id }}"
+  data-section-type="testimonials-about"
+  data-aos>
+  {%- if section.settings.title != blank -%}
+    <div class="page-width">
+      <div class="section-header">
+        <h2 class="section-header__title" style="border-bottom: none;">{{ section.settings.title | escape }}</h2>
+        {% comment %} <div class="h1 h3">{{ section.settings.title | escape }}</div> {% endcomment %}
+      </div>
+    </div>
+  {%- endif -%}
+
+  {%- if section.blocks.size > 0 -%}
+    <div class="slideshow-wrapper">
+      <div
+        class="testimonials-slider"
+        id="Testimonials-{{ section.id }}"
+        data-dots="true"
+        data-count="{{ section.blocks.size }}">
+        {%- for block in section.blocks -%}
+          <div
+            class="testimonials-about-slide testimonials-slide testimonials-slide--{{ block.id }}"
+            data-index="{{ forloop.index0 }}"
+            data-aos="row-of-{{ section.blocks.size }}"
+            {{ block.shopify_attributes }}>
+            <blockquote class="testimonials-slider__text">
+
+              <div style="display:flex;">
+
+                {%- if block.settings.icon == 'quote' -%}
+                  <span class="quote-icon"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-quote" viewBox="0 0 41 35"><path d="M10.208 17.711h6.124v16.332H0V21.684C0 8.184 5.444.956 16.332 0v6.125c-4.083 1.14-6.124 4.414-6.124 9.82v1.766zm24.498 0h6.124v16.332H24.498V21.684C24.498 8.184 29.942.956 40.83 0v6.125c-4.083 1.14-6.124 4.414-6.124 9.82v1.766z" fill="#000" fill-rule="evenodd"/></svg></span>
+                {%- elsif block.settings.icon == '5-stars' -%}
+                  <span class="testimonial-stars"><img src="{{ section.settings.stars-5 | img_url: '400x' }}"></span>
+                {%- elsif block.settings.icon == '4-5-stars' -%}
+                  <span class="testimonial-stars"><img src="{{ section.settings.stars-4-5 | img_url: '400x' }}"></span>
+                {%- elsif block.settings.icon == '4-stars' -%}
+                  <span class="testimonial-stars"><img src="{{ section.settings.stars-4 | img_url: '400x' }}"></span>
+                {%- endif -%}
+
+                <div class="trust-tooltip">
+                  <span class="trust-tooltiptext">
+                      Reviews for Trustpilot that are labeled <b>Invited</b> were written via a link leading directly to our review form.</span>
+                  <div class="trust-invited">
+                    <div class="trust-invited-svg">
+                      <svg viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg style=" position:="" absolute;="" height:="" 100%;="" width:="" left:="" 0;="" top:="" 0;""="">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7 14C10.866 14 14 10.866 14 7C14 3.13401 10.866 0 7 0C3.13401 0 0 3.13401 0 7C0 10.866 3.13401 14 7 14ZM6.09217 7.81401L9.20311 4.7031C9.44874 4.45757 9.84688 4.45757 10.0923 4.7031C10.338 4.94864 10.338 5.34673 10.0923 5.59226L6.62009 9.06448C6.59573 9.10283 6.56682 9.13912 6.53333 9.17256C6.28787 9.41821 5.88965 9.41821 5.64402 9.17256L3.7059 7.11031C3.46046 6.86464 3.46046 6.46669 3.7059 6.22102C3.95154 5.97548 4.34968 5.97548 4.59512 6.22102L6.09217 7.81401Z" fill="currentColor"></path>
+                      </svg>
+                    </div>
+                    <div class="trust-invited-text">Invited</div>
+                  </div>
+                </div>
+
+              </div>
+
+
+              {%- if block.settings.testimonial_title != blank -%}
+                <a href="{{section.settings.more_link}}" target="_blank" rel="noopener">
+                  <cite style="font-size:14px;">{{ block.settings.testimonial_title | escape }}</cite>
+                </a>
+              {%- endif -%}
+
+              {%- if block.settings.testimonial != blank -%}
+                <a href="{{section.settings.more_link}}" target="_blank" rel="noopener">
+                  <div>
+                    <div class="testimonial-quote rte-setting">{{ block.settings.testimonial }}</div>
+                  </div>
+                </a>
+              {%- endif -%}
+
+              {%- if block.settings.author != blank -%}
+                <a href="{{section.settings.more_link}}" target="_blank" rel="noopener">
+                  <cite style="font-size:13px; color: rgba(0,0,0,.6);">{{ block.settings.author | escape }}</cite>
+                  {% comment %} <div style="font-size:13px;">{{ block.settings.author | escape }}</div> {% endcomment %}
+                </a>
+              {%- endif -%}
+              {%- if block.settings.author_info != blank -%}
+                <div class="testimonials__info">{{ block.settings.author_info | escape }}</div>
+              {%- endif -%}
+            </blockquote>
+          </div>
+        {%- endfor -%}
+      </div>
+    </div>
+    <div>
+      <a href="{{section.settings.more_link}}" target="_blank" rel="noopener">
+        <div class="trust-footer-text">Rated <b>{{ section.settings.average_rating }}</b> / 5 based on 
+          <span style="text-decoration: underline">{{ section.settings.total_reviews }} reviews</span>. Showing our latest reviews.
+        </div>
+        <div class="trust-footer-image">
+          <img src="{{ section.settings.logo | img_url: '400x' }}">
+        </div>
+      </a>
+    </div>
+
+
+  <!-- TrustBox widget - Micro Review Count -->
+{% comment %} <div class="trustpilot-widget" data-locale="en-US" data-template-id="5419b6a8b0d04a076446a9ad" data-businessunit-id="6422c692ec65b61c95e4e165" data-style-height="24px" data-style-width="100%" data-theme="light" data-min-review-count="50" data-style-alignment="center">
+  <a href="https://www.trustpilot.com/review/vidlogix.com" target="_blank" rel="noopener">Trustpilot</a>
+</div> {% endcomment %}
+<!-- End TrustBox widget -->
+
+
+
+  {%- endif -%}
+</div>
+
+
+<style>
+
+/* Trustpilot Testimonial Slider*/
+
+  .testimonials-about-section  .section-header {
+    margin-bottom: 60px;
+  }
+  @media (max-width:768px) {
+    .testimonials-about-section  .section-header {
+      margin-bottom: 40px;
+    }
+  }
+  /*drives how many quote blocks display*/
+  .testimonials-about-slide {
+    height: 240px;
+    width:25%;
+    padding: 0 25px;
+  }
+  @media (max-width:1180px) {
+    .testimonials-about-slide {
+      width:33%;
+    }
+  }
+  @media (max-width:975px) {
+    .testimonials-about-slide {
+      width:50%;
+    }
+  }
+  @media (max-width:606px) {
+    .testimonials-about-slide {
+      width:100%;
+    }
+  }
+  
+  /* .testimonials-about-section .testimonials-slide.is-selected .testimonials-slider__text{
+    box-shadow: 0 1px 0 0 rgba(182,196,210,.4);
+  } */
+  
+  .testimonials-about-section .testimonial-stars {
+    margin-bottom: 3px;
+  }
+  
+  .testimonials-about-section .testimonials-slider__text {
+    padding: 15px;
+    max-height: 185px;
+    min-height: 185px;
+    
+    box-shadow: 0 10px 15px #0000001a;
+    transform: scale(1.1);
+  }
+    /*.testimonials-about-section .testimonials-slide.is-selected .testimonials-slider__text {
+    box-shadow: 0 10px 15px #0000001a;
+  }*/
+  .testimonials-about-section .testimonial-stars img {
+    height:17px;
+  }
+  
+  .testimonials-about-section .flickity-button {
+    background-color: #c0c0c0;
+  }
+  @media (min-width: 769px) {
+    .testimonials-about-section .flickity-previous{ left: -50px; }
+    .testimonials-about-section .flickity-next{ right: -50px; }
+  }
+  
+  .testimonials-about-section .flickity-prev-next-button {
+    top: 42%;
+    width: 30px;
+    height: 30px;
+  }
+  
+  /* Trustpilot Tooltip on Testimonial Slider */
+  .trust-tooltip {
+    position: relative;
+    display: inline-block;
+    padding-left: 8px;
+    display: block;
+    min-width: 0;
+    color: #6c6c85;
+    position: relative;
+  }
+  
+  .trust-tooltip .trust-tooltiptext {
+    font-size:13px;
+    visibility: hidden;
+    width: 200px;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
+    /* box-shadow: rgba(0, 0, 0, 0.65) 0px 5px 15px; */
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 34px 35px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .trust-tooltip:hover .trust-tooltiptext {
+    visibility: visible;
+  }
+  
+  .trust-tooltip .trust-tooltiptext {
+    width: 200px;
+    top: 110%;
+    left: 50%;
+    /*margin-left: -60px;*/ /* Use half of the width (120/2 = 60), to center the tooltip */
+    margin-left: -100px;
+  }
+  
+  .trust-tooltip .trust-tooltiptext::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+  }
+  
+  .trust-invited {
+    transform: translatey(2px);
+    display: flex;
+    font-size: 13px;
+    font-weight: 400;
+    height: 19px;
+    line-height: 16px;
+    margin-top: 2px;
+    overflow: hidden;
+  }
+  
+  .trust-invited-svg {
+    position: relative;
+    height: 0;
+    width: 100%;
+    padding: 0;
+    padding-bottom: 100%;
+  
+    transform: translatey(2px);
+    flex-shrink: 0;
+    height: 18px;
+    margin: 0 4px 2.5px auto;
+    width: 14px;
+  }
+  
+  /* .trust-invited-text {
+    white-space: nowrap; overflow: hidden;text-overflow: ellipsis;
+  } */
+
+  .testimonials-about-section cite {
+    padding-bottom: 8px;
+  }
+
+  .testimonials-about-section .testimonial-quote {
+    font-size:13px;
+    max-height: 65px;
+    white-space: normal;
+    word-wrap: break-word;
+    /* white-space: nowrap; */
+    overflow: hidden;
+    /*max-width: 200px;*/
+    margin-bottom: 10px;
+    /*display:inline;*/
+    /*max-width: 20ch;*/
+    text-overflow: ellipsis;
+    --max-lines: 3;
+    position: relative;
+
+    display: -webkit-box; /* truncates*/
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+
+  .trust-footer-text {
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  .trust-footer-image {
+    margin: auto;
+    width:100px;
+  }
+</style>
+
+
+
+<!-- class="index-section--hidden" instead of "index-section" to remove the bottom margin -->
+{% schema %}
+  {
+    "name": "Testimonials About",
+    "class": "index-section--hidden",
+    "max_blocks": 20,
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "Testimonials"
+      },
+      {
+        "type": "select",
+        "id": "align_text",
+        "label": "Text alignment",
+        "default": "center",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Centered"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ]
+      },
+
+      {
+        "type": "url",
+        "id": "more_link",
+        "label": "Trustpilot Link"
+      },
+      {
+        "type": "text",
+        "id": "average_rating",
+        "label": "Average Rating",
+        "default": "4.7"
+      },
+      {
+        "type": "text",
+        "id": "total_reviews",
+        "label": "Total Reviews",
+        "default": "36"
+      },
+      {
+        "type": "image_picker",
+        "id": "stars-5",
+        "label": "5 Star image"
+      },
+      {
+        "type": "image_picker",
+        "id": "stars-4-5",
+        "label": "4.5 Star image"
+      },
+      {
+        "type": "image_picker",
+        "id": "stars-4",
+        "label": "4 Star image"
+      },
+      {
+        "type": "image_picker",
+        "id": "logo",
+        "label": "Trustpilot logo"
+      },
+      {
+        "type": "color",
+        "id": "color_background",
+        "label": "Background",
+        "default": "#f9f9f9"
+      },
+      {
+        "type": "color",
+        "id": "color_text",
+        "label": "Text",
+        "default": "#1c1d1d"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "testimonial",
+        "name": "Testimonial",
+        "settings": [
+          {
+            "type": "select",
+            "id": "icon",
+            "label": "Icon",
+            "default": "5-stars",
+            "options": [
+              {
+                "value": "none",
+                "label": "None"
+              },
+              {
+                "value": "5-stars",
+                "label": "5 stars"
+                },
+              {
+                "value": "4-5-stars",
+                "label": "4.5 stars"
+              },
+              {
+                "value": "4-stars",
+                "label": "4 stars"
+
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "testimonial_title",
+            "label": "Review Title",
+            "default": "Great Service"
+          },
+          {
+            "type": "richtext",
+            "id": "testimonial",
+            "label": "Review",
+            "default": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>"
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Author's image"
+          },
+          {
+            "type": "text",
+            "id": "author",
+            "label": "Author",
+            "default": "Author's name"
+          },
+          {
+            "type": "text",
+            "id": "author_info",
+            "label": "Author info",
+            "default": "Los Angeles, CA"
+          },
+          {
+            "type": "checkbox",
+            "id": "invited",
+            "label": "Include the Invited label",
+            "default": true
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Testimonials",
+        "blocks": [
+          {
+            "type": "testimonial"
+          },
+          {
+            "type": "testimonial"
+          },
+          {
+            "type": "testimonial"
+          },
+          {
+            "type": "testimonial"
+          },
+          {
+            "type": "testimonial"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
