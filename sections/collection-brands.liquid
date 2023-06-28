@@ -75,7 +75,7 @@
         <a id="brochure-btn-mobile" style="display:none;" class="btn hero__btn" target="_blank" href="https://cdn.shopify.com/s/files/1/0056/9632/3651/files/Vidlogix-Catalog.pdf?v=1687482728" title="Vidlogix Brochure">{{ section.settings.button_text }}</a>
         <a id="brochure-btn-desktop" style="display:none;" class="btn hero__btn" title="Vidlogix Brochure">{{ section.settings.button_text }}</a>
       </div>
-      {% render 'brochure-drawer' %}
+      {% render 'brochure-drawer', more_link: section.settings.more_link %}
     </div>
   
     {% if section.blocks.size == 0 %}
