@@ -1,6 +1,6 @@
 {% comment %} iframe drawer for brochure. triggered by brochure-btn-mobile & brochure-btn-desktop - am {% endcomment %}
 
-{% assign brochure_link = more_link | append: '#navpanes=0' %}
+{% assign brochure_link = more_link | append: "#navpanes=0" %}
 
 <div id="why-outer-modal" class="media-drwr-container brochure-modal">
   <div id="brochure-drwr-overlay" style="background-color: rgba(0, 0, 0, 0.507);"></div>
@@ -9,7 +9,7 @@
       <span class="close-why-popup">&times;</span>  {% comment %} &#88 {% endcomment %}
       <div class="brochure-drwr-inner">
         {% comment %} <iframe id="brochure-iframe" src="https://cdn.shopify.com/s/files/1/0056/9632/3651/files/Vidlogix-Catalog.pdf?v=1687482728#navpanes=0"></iframe> {% endcomment %}
-        <iframe id="brochure-iframe" src="brochure_link"></iframe>
+        <iframe id="brochure-iframe" src="{{brochure_link}}"></iframe>
       </div>
     </div>
   </div>
