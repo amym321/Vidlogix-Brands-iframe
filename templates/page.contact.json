@@ -6,6 +6,12 @@
       "settings": {
       }
     },
+    "36111869-21d8-4573-8560-005bbc56e202": {
+      "type": "company-tabs",
+      "settings": {
+        "sub_menu_link_list": "company-sub-menu"
+      }
+    },
     "16397010723e8be630": {
       "type": "slideshow",
       "blocks": {
@@ -54,6 +60,7 @@
   },
   "order": [
     "main",
+    "36111869-21d8-4573-8560-005bbc56e202",
     "16397010723e8be630",
     "form"
   ]
