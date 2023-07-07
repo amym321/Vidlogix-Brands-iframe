@@ -639,9 +639,9 @@
                 <div id="ProtectionPlan-4389426856003" data-section-id="4389426856003" data-enable="true" data-product-id="{{ prod.id }}" data-product-handle="{{ prod.handle }}" class="grid-product">
                   <div data-section-id="4389426856003" data-subsection data-section-type="collection-template">
                   {{ shop.metafields.accentuate.protection_plan_message }}
-                  <span class="btn protection-plan__btn quick-product__btn js-modal-open-quick-modal-{{ prod.id }}">Add Plan</span>
+                  {% comment %} <span class="btn protection-plan__btn quick-product__btn js-modal-open-quick-modal-{{ prod.id }}">Add Plan</span> {% endcomment %}
                   {% comment %} <a target="_blank" href="/pages/protection-plans" class="more-link">Learn More</a> {% endcomment %}
-                  <a target="_blank" href="/products/vidlogix-product-protection-plans" class="more-link">Learn More</a>
+                  <a href="#" style="margin-top: 10px;" class="btn protection-plan__btn quick-product__btn" data-beacon-article-modal="64a784fdc56f180266f77653">Add Plan</a>
 
                   {%- if prod.options.size > 0 -%}
                     {%- render 'quick-shop-modal', product: prod -%}
