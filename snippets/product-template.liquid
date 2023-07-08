@@ -294,6 +294,25 @@
 
                         <span data-unit-price>{{ current_variant.unit_price | money }}</span>/{{ unit_price_base_unit }}
                       </div>
+
+                      {% comment %} Price/Tax tooltip - am{% endcomment %}
+                        <span class="condition-new tax-tooltip" >
+                          {% for variant in product.variants %}
+                            <span class="backorder-wrapper {% if variant != current_variant %} hide{% endif %}">
+                          <span class="tts tts-wrap tooltip-wrapper {% if product.compare_at_price_max > product.price %} tooltip-transform {% endif %}" aria-label="{{ settings.price_tax_tooltip }}">
+                                <a class="condition-new-desktop" target="_blank" href="/pages\/help-center?main_block=HC-left-faq-3&sub_block=HC-faq-3-6" >
+                                  {% comment %} <span></span> {% endcomment %}
+                                  <img aria-hidden="true" focusable="false" role="presentation" class="icon icon-tooltip tooltip-image" src="{{ settings.backstock_icon | img_url }}">
+                                </a>
+                                <a class="condition-new-mobile">
+                                  {% comment %} <span></span> {% endcomment %}
+                                  <img aria-hidden="true" focusable="false" role="presentation" class="icon icon-tooltip tooltip-image" src="{{ settings.backstock_icon | img_url }}">
+                                </a>
+                              </span>
+                            </span>
+                          {% endfor %}
+                        </span>
+
                     </div>
 
                     {% comment %} Shop Pay message. Added another form so message displays - am  {% endcomment %}

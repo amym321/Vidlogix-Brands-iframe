@@ -13062,6 +13062,22 @@ button#dummy-chat-button.chat-toggle {
   margin: 0 !important;
 }
 
+/* price/tax tooltip */
+.tax-tooltip {
+  /* display:inline; */
+}
+.tax-tooltip .tooltip-wrapper {
+  transform: translateY(-5px);
+}
+@media (max-width:768px) {
+  .tax-tooltip .tooltip-transform {
+    transform: translate(65px, -30px);
+  }
+}
+.tax-tooltip .tts-wrap:before  {
+  width: 200px;
+}
+
 /* use this class with the Custom Content/HTML as a divider */
 .section-divider {
   margin-top: 40px;
