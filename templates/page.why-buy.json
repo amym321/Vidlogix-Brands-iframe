@@ -19,7 +19,6 @@
     },
     "fa68050c-dc96-4699-b0ea-6bceb6c2d681": {
       "type": "testimonials-about",
-      "disabled": true,
       "blocks": {
         "template--14950973538371__fa68050c-dc96-4699-b0ea-6bceb6c2d681-1689271776581363be-0": {
           "type": "testimonial",
@@ -109,12 +108,18 @@
         "color_background": "#f8f6f7",
         "color_text": "#1c1d1d"
       }
+    },
+    "3c23daa7-b60c-4c02-bfdf-c3803da703e7": {
+      "type": "why-buy-2-section",
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
     "78bf8d55-1367-456c-b987-da55333c13e5",
     "1649183713a4cc8874",
-    "fa68050c-dc96-4699-b0ea-6bceb6c2d681"
+    "fa68050c-dc96-4699-b0ea-6bceb6c2d681",
+    "3c23daa7-b60c-4c02-bfdf-c3803da703e7"
   ]
 }
