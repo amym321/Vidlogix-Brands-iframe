@@ -136,12 +136,22 @@
               "link": "shopify:\/\/pages\/why-buy-vidlogix",
               "bar_popup": false
             }
+          },
+          "22d925a3-708c-4e01-8596-721a1bf0cd73": {
+            "type": "announcement",
+            "settings": {
+              "text": "Free 2-Day Shipping",
+              "link_text": "",
+              "link": "https:\/\/vidlogix.com\/pages\/help-center?main_block=HC-left-faq-2&sub_block=HC-faq-2-1",
+              "bar_popup": false
+            }
           }
         },
         "block_order": [
           "1524770014057",
           "1524770292306",
-          "f1e24d76-2f27-4282-a406-a30a0e3d8935"
+          "f1e24d76-2f27-4282-a406-a30a0e3d8935",
+          "22d925a3-708c-4e01-8596-721a1bf0cd73"
         ],
         "settings": {
           "main_menu_link_list": "main-menu",
