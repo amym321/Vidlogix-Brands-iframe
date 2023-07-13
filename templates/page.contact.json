@@ -52,7 +52,7 @@
       "type": "contact-form",
       "settings": {
         "title": "Let's Talk",
-        "text": "<p>We’re here to help with existing, new or in-progress home Audio, Video or Smart Home Technology projects. Ensuring your total satisfaction is our passion. Please fill out the form below and someone will be with you as soon as possible.<\/p>",
+        "text": "<p>We’re here to help with existing, new or in-progress home Audio, Video or Smart Home Technology projects. <br\/>Ensuring your total satisfaction is our passion. Please fill out the form below and someone will be with you as soon as possible.<\/p>",
         "show_phone": true,
         "narrow_column": true
       }
