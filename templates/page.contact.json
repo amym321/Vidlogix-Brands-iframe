@@ -56,12 +56,101 @@
         "show_phone": true,
         "narrow_column": true
       }
+    },
+    "e151ccfd-be3f-40ef-a2a0-6b6c21704011": {
+      "type": "testimonials-about",
+      "blocks": {
+        "template--14950974390339__e151ccfd-be3f-40ef-a2a0-6b6c21704011-1689271776581363be-0": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial_title": "Great Service",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name",
+            "author_info": "",
+            "invited": true
+          }
+        },
+        "template--14950974390339__e151ccfd-be3f-40ef-a2a0-6b6c21704011-1689271776581363be-1": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial_title": "Great Service",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name",
+            "author_info": "",
+            "invited": true
+          }
+        },
+        "template--14950974390339__e151ccfd-be3f-40ef-a2a0-6b6c21704011-1689271776581363be-2": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial_title": "Great Service",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name",
+            "author_info": "",
+            "invited": true
+          }
+        },
+        "template--14950974390339__e151ccfd-be3f-40ef-a2a0-6b6c21704011-1689271776581363be-3": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial_title": "Great Service",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name",
+            "author_info": "",
+            "invited": true
+          }
+        },
+        "template--14950974390339__e151ccfd-be3f-40ef-a2a0-6b6c21704011-1689271776581363be-4": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial_title": "Great Service",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name",
+            "author_info": "",
+            "invited": true
+          }
+        },
+        "9d8bbd11-9195-4d27-83d5-5977f25ca5e0": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial_title": "Great Service",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name",
+            "author_info": "",
+            "invited": true
+          }
+        }
+      },
+      "block_order": [
+        "template--14950974390339__e151ccfd-be3f-40ef-a2a0-6b6c21704011-1689271776581363be-0",
+        "template--14950974390339__e151ccfd-be3f-40ef-a2a0-6b6c21704011-1689271776581363be-1",
+        "template--14950974390339__e151ccfd-be3f-40ef-a2a0-6b6c21704011-1689271776581363be-2",
+        "template--14950974390339__e151ccfd-be3f-40ef-a2a0-6b6c21704011-1689271776581363be-3",
+        "template--14950974390339__e151ccfd-be3f-40ef-a2a0-6b6c21704011-1689271776581363be-4",
+        "9d8bbd11-9195-4d27-83d5-5977f25ca5e0"
+      ],
+      "settings": {
+        "title": "Testimonials",
+        "align_text": "center",
+        "more_link": "",
+        "average_rating": "4.7",
+        "total_reviews": "36",
+        "color_background": "#f9f9f9",
+        "color_text": "#1c1d1d"
+      }
     }
   },
   "order": [
     "main",
     "36111869-21d8-4573-8560-005bbc56e202",
     "16397010723e8be630",
-    "form"
+    "form",
+    "e151ccfd-be3f-40ef-a2a0-6b6c21704011"
   ]
 }
