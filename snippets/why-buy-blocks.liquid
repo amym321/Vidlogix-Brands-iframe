@@ -25,7 +25,11 @@
   {%- endif -%}
 
   {% if button_label != blank %}
-    <a href="{{ button_link }}" class="why-btn why-link"  target="_blank">
+    {% if beacon == "true" %}
+      <a href="#" data-beacon-article-modal="{{ button_link }}"  class="why-btn why-link"  target="_blank">
+    {% else %}
+      <a href="{{ button_link }}" class="why-btn why-link"  target="_blank">
+    {% endif %}
       {{ button_label }}
       <span style="font-size:24px; color: #F6C12F;">  &rsaquo;</span>
     </a>
