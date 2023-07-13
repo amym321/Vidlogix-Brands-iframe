@@ -1,1 +1,108 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{}},"78bf8d55-1367-456c-b987-da55333c13e5":{"type":"company-tabs","settings":{"sub_menu_link_list":"company-sub-menu"}},"1649183713a4cc8874":{"type":"why-buy-section","settings":{}}},"order":["main","78bf8d55-1367-456c-b987-da55333c13e5","1649183713a4cc8874"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "78bf8d55-1367-456c-b987-da55333c13e5": {
+      "type": "company-tabs",
+      "settings": {
+        "sub_menu_link_list": "company-sub-menu"
+      }
+    },
+    "1649183713a4cc8874": {
+      "type": "why-buy-section",
+      "settings": {
+      }
+    },
+    "fa68050c-dc96-4699-b0ea-6bceb6c2d681": {
+      "type": "testimonials-about",
+      "disabled": true,
+      "blocks": {
+        "template--14950973538371__fa68050c-dc96-4699-b0ea-6bceb6c2d681-1689271776581363be-0": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial_title": "Great Service",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name",
+            "author_info": "",
+            "invited": true
+          }
+        },
+        "template--14950973538371__fa68050c-dc96-4699-b0ea-6bceb6c2d681-1689271776581363be-1": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial_title": "Great Service",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name",
+            "author_info": "",
+            "invited": true
+          }
+        },
+        "template--14950973538371__fa68050c-dc96-4699-b0ea-6bceb6c2d681-1689271776581363be-2": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial_title": "Great Service",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name",
+            "author_info": "",
+            "invited": true
+          }
+        },
+        "template--14950973538371__fa68050c-dc96-4699-b0ea-6bceb6c2d681-1689271776581363be-3": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial_title": "Great Service",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name",
+            "author_info": "",
+            "invited": true
+          }
+        },
+        "template--14950973538371__fa68050c-dc96-4699-b0ea-6bceb6c2d681-1689271776581363be-4": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial_title": "Great Service",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name",
+            "author_info": "",
+            "invited": true
+          }
+        }
+      },
+      "block_order": [
+        "template--14950973538371__fa68050c-dc96-4699-b0ea-6bceb6c2d681-1689271776581363be-0",
+        "template--14950973538371__fa68050c-dc96-4699-b0ea-6bceb6c2d681-1689271776581363be-1",
+        "template--14950973538371__fa68050c-dc96-4699-b0ea-6bceb6c2d681-1689271776581363be-2",
+        "template--14950973538371__fa68050c-dc96-4699-b0ea-6bceb6c2d681-1689271776581363be-3",
+        "template--14950973538371__fa68050c-dc96-4699-b0ea-6bceb6c2d681-1689271776581363be-4"
+      ],
+      "settings": {
+        "title": "Testimonials",
+        "align_text": "center",
+        "more_link": "",
+        "average_rating": "4.7",
+        "total_reviews": "36",
+        "stars-5": "shopify:\/\/shop_images\/5_stars_3.jpg",
+        "stars-4-5": "shopify:\/\/shop_images\/4.5_stars_3_69e34718-9bb9-4641-88a8-bf44309a0efe.jpg",
+        "stars-4": "shopify:\/\/shop_images\/4_stars_3_a867b97d-d1c9-46b9-a190-6067c36737fc.jpg",
+        "logo": "shopify:\/\/shop_images\/logo_3369a90c-3de9-4c59-ac7a-047646105c00.png",
+        "color_background": "#f9f9f9",
+        "color_text": "#1c1d1d"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "78bf8d55-1367-456c-b987-da55333c13e5",
+    "1649183713a4cc8874",
+    "fa68050c-dc96-4699-b0ea-6bceb6c2d681"
+  ]
+}
