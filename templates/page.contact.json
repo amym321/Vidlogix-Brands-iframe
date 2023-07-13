@@ -59,7 +59,6 @@
     },
     "e151ccfd-be3f-40ef-a2a0-6b6c21704011": {
       "type": "testimonials-about",
-      "disabled": true,
       "blocks": {
         "template--14950974390339__e151ccfd-be3f-40ef-a2a0-6b6c21704011-1689271776581363be-0": {
           "type": "testimonial",
