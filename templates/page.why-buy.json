@@ -75,6 +75,17 @@
             "author_info": "",
             "invited": true
           }
+        },
+        "1a210b1c-3a90-486b-bab3-d63db8afcaf4": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial_title": "Great Service",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "author": "Author's name",
+            "author_info": "",
+            "invited": true
+          }
         }
       },
       "block_order": [
@@ -82,7 +93,8 @@
         "template--14950973538371__fa68050c-dc96-4699-b0ea-6bceb6c2d681-1689271776581363be-1",
         "template--14950973538371__fa68050c-dc96-4699-b0ea-6bceb6c2d681-1689271776581363be-2",
         "template--14950973538371__fa68050c-dc96-4699-b0ea-6bceb6c2d681-1689271776581363be-3",
-        "template--14950973538371__fa68050c-dc96-4699-b0ea-6bceb6c2d681-1689271776581363be-4"
+        "template--14950973538371__fa68050c-dc96-4699-b0ea-6bceb6c2d681-1689271776581363be-4",
+        "1a210b1c-3a90-486b-bab3-d63db8afcaf4"
       ],
       "settings": {
         "title": "Testimonials why buy",
