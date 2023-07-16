@@ -316,10 +316,19 @@
                     </div>
 
                     {% comment %} Shop Pay message. Added another form so message displays - am  {% endcomment %}
-                    {%- form 'product', product, id: form_id -%}
+                    {% comment %} form 'product', product, id: form_id 
                       <div class="shopify-payment-terms product__policies">{{ form | payment_terms }}</div>
-                    {%- endform -%}
+                     endform  {% endcomment %}
+
+                    <div class="shopify-payment-terms product__policies">
+                      <a href="#" data-beacon-article-modal="64b2e75ea9c74861f34db086" >
+                        4 interest-free installments with Apple Pay Later
+                        <img  src="https://cdn.shopify.com/s/files/1/0056/9632/3651/files/apple-pay-og_110x.jpg?v=1689539280" alt="Apple Pay"
+                          width="60" height="40" style="transform: translatey(15px); margin-left: 8px;">
+                      </a>
+                    </div>
                     
+
 
                   {%- when 'quantity_selector' -%}
                     <div class="product__quantity-cart">
