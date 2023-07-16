@@ -64,7 +64,7 @@
     "product_hover_image": false,
     "backstock_intro": "Backorder — Dispatched",
     "backstock_tooltip": "The Restock Date is when we reasonably expect to have the product in stock based on anticipated demand, communications from the manufacturer, and other factors. These dates are good faith estimates and subject to delays or changes. You may cancel an order at any time before shipment.",
-    "condition_new_tooltip": "The brand-new, unused, undamaged item is in its original packaging. Packaging is the same as what is found in our retail stores.",
+    "condition_new_tooltip": "The brand-new, unused, undamaged item is in its original packaging. \nPackaging is the same as what is found in our retail stores.",
     "backstock_icon": "shopify:\/\/shop_images\/tooltip-icon.png",
     "enable_product_reviews": true,
     "collection_grid_style": "overlaid-box",
