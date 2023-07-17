@@ -3,9 +3,9 @@
     const nvdShop = 'vidilogix.myshopify.com';
     const nvdShopCurrency = '{{ shop.money_format | strip_html }}';
     const nvdControls = {
-      subtotal_item: 'subtotal_class_here',
-      CheckoutBtns: 'checkout_button_class_here',
-      clickTriggers: 'click_trigger_class_here',
+      subtotal_item: '[data-subtotal]',
+      CheckoutBtns: '.cart__checkout',
+      clickTriggers: '.add-to-cart, .add-to-cart *, .js-qty__adjust, .js-qty__adjust *',
       changeTrigger: 'onchange_input_class_here',
 	    cursorControl: '.nvd-mini',
       showConsoleMessage:false,

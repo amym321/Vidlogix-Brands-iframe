@@ -1,0 +1,46 @@
+ {%- comment -%} //style part here for hiding navidium from collection and search etc  {%- endcomment -%}
+
+ <style>
+    [data-product-handle*='navidium']{
+      display: none;
+    }
+    .appearance-right-previw .form-switchCstm .forms-check-inputCstm:checked + .img svg path {
+    fill: #F6C03F;
+  }
+  
+  .appearance-right-previw .form-switchCstm .forms-check-inputCstm:checked {
+      background-color: #F6C03F;
+  }
+  </style>
+     
+<!-- navidium script end -->
+
+ <script>
+    const nvdShop = 'vidilogix.myshopify.com';
+    const nvdShopCurrency = '{{ shop.money_format | strip_html }}';
+    const nvdControls = {
+      subtotal_item: '[data-subtotal]',
+      CheckoutBtns: '.cart__checkout',
+      clickTriggers: '.add-to-cart, .add-to-cart *, .js-qty__adjust, .js-qty__adjust *',
+      changeTrigger: 'onchange_input_class_here',
+	    cursorControl: '.cart__checkout,.nvd-mini',
+      showConsoleMessage:false,
+      iosDeviceListener:'click',
+      trackWidget:false,
+      forceClick: true,
+      forceCheckout: false,
+      redirectCheckout: {
+        upsaleOff: true,
+        noProtection: false
+      },
+		  nvdInject:{
+        status:false, // Inject nvd-mini div
+        parent:'parent_class', // parent class for nvd-mini div
+        container:'checkout_button_div' // nvd-mini will added before this div/button
+      }
+    }
+  </script>
+ <script  src="https://navidium-static-assets.s3.amazonaws.com/navidium-widgets/js/nvd-js-asset.js" defer></script>
+ <script  src="https://navidium-static-assets.s3.us-east-1.amazonaws.com/navidium-widgets/js/nvd-widget-v-n-1.min.js" defer></script>
+<!-- navidium script end -->
+
