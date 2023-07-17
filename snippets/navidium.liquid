@@ -1,4 +1,20 @@
 <!-- navidium script start -->
+ <style>
+.appearance-right-previw-ld{
+  background:transparent !important;
+}
+    [data-product-handle*='navidium']{
+      display: none;
+    }
+    .appearance-right-previw .form-switchCstm .forms-check-inputCstm:checked + .img svg path {
+    fill: #F6C03F;
+  }
+  
+  .appearance-right-previw .form-switchCstm .forms-check-inputCstm:checked {
+      background-color: #F6C03F;
+  }
+  </style>
+  
  <script>
     const nvdShop = 'vidilogix.myshopify.com';
     const nvdShopCurrency = '{{ shop.money_format | strip_html }}';
@@ -6,7 +22,7 @@
       subtotal_item: '[data-subtotal]',
       CheckoutBtns: '.cart__checkout',
       clickTriggers: '.add-to-cart, .add-to-cart *, .js-qty__adjust, .js-qty__adjust *',
-      changeTrigger: 'onchange_input_class_here',
+      changeTrigger: '.js-qty__num',
 	    cursorControl: '.nvd-mini',
       showConsoleMessage:false,
       iosDeviceListener:'click',
@@ -27,18 +43,3 @@
  <script  src="https://navidium-static-assets.s3.amazonaws.com/navidium-widgets/js/nvd-js-asset.js" defer></script>
  <script  src="https://navidium-static-assets.s3.us-east-1.amazonaws.com/navidium-widgets/js/nvd-widget-v-n-1.min.js" defer></script>
 <!-- navidium script end -->
- <style>
-.appearance-right-previw-ld{
-  background:transparent !important;
-}
-    [data-product-handle*='navidium']{
-      display: none;
-    }
-    .appearance-right-previw .form-switchCstm .forms-check-inputCstm:checked + .img svg path {
-    fill: #F6C03F;
-  }
-  
-  .appearance-right-previw .form-switchCstm .forms-check-inputCstm:checked {
-      background-color: #F6C03F;
-  }
-  </style>
