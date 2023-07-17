@@ -1,0 +1,29 @@
+<!-- navidium script start -->
+ <script>
+    const nvdShop = 'vidilogix.myshopify.com';
+    const nvdShopCurrency = '{{ shop.money_format | strip_html }}';
+    const nvdControls = {
+      subtotal_item: 'subtotal_class_here',
+      CheckoutBtns: 'checkout_button_class_here',
+      clickTriggers: 'click_trigger_class_here',
+      changeTrigger: 'onchange_input_class_here',
+	    cursorControl: '.nvd-mini',
+      showConsoleMessage:false,
+      iosDeviceListener:'click',
+      trackWidget:false,
+      forceClick: true,
+      forceCheckout: false,
+      redirectCheckout: {
+        upsaleOff: true,
+        noProtection: false
+      },
+		  nvdInject:{
+        status:false, // Inject nvd-mini div
+        parent:'parent_class', // parent class for nvd-mini div
+        container:'checkout_button_div' // nvd-mini will added before this div/button
+      }
+    }
+  </script>
+ <!-- <script  src="https://navidium-static-assets.s3.amazonaws.com/navidium-widgets/js/nvd-js-asset.js"></script> -->
+ <script  src="https://navidium-static-assets.s3.us-east-1.amazonaws.com/navidium-widgets/js/nvd-widget-v-n-1.min.js" defer></script>
+<!-- navidium script end -->
