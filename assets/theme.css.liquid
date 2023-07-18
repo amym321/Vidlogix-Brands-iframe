@@ -13359,7 +13359,7 @@ button#dummy-chat-button.chat-toggle {
   /* margin: 0 0 20px; */
   /* margin: 0 0 25px; */
   margin: 0 0 10px;
-  transform: translateY(-22px);
+  transform: translateY(-10px);
 }
 
 .apple-pay-overlay {
@@ -13368,14 +13368,21 @@ button#dummy-chat-button.chat-toggle {
   color:  #ffffff00;
   font-size: 20px;
 }
+.apple-pay-text {
+  font-size: 14.4px;
+}
 
 .apple-pay {
-  transform: translate(-65px, 15px);
+  transform: translate(-65px, 10px);
+  width:55px;
+  height:27px;
 }
 
 @media (max-width:912px) {
   .apple-pay {
-    transform: translate(0, 15px);
+    transform: translate(0, 8px);
+    width: 50px;
+    height: 25px;
   }
   .apple-pay-overlay {
     display:none;
@@ -13383,6 +13390,18 @@ button#dummy-chat-button.chat-toggle {
 }
 @media (max-width:768px) {
   .shopify-payment-terms {
-    transform: translateY(-32px);
+    transform: translateY(-10px);
+  }
+}
+@media (max-width:280px) {
+  .shopify-payment-terms {
+    transform: translateY(-10px);
+  }
+  .shopify-payment-terms a {
+    font-size:14px;
+  }
+  .shopify-payment-terms img {
+    width:40px;
+    height:20px;
   }
 }
