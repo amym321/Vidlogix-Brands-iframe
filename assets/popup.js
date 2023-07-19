@@ -1,6 +1,6 @@
 // logic for popups including Media Drawer on PDP, UPS Map popup, Why Buy popup - am
 
-window.onload = function(){ 
+(function(){ 
 
   // Why Buy popup
   var outerModal = document.getElementById("why-buy-popup");
@@ -70,7 +70,8 @@ window.onload = function(){
     }
   }
 
-  if (recentViewBtn != null || recentViewBtn2 != null) {
+  // if (recentViewBtn != null || recentViewBtn2 != null) {
+  if (recentViewBtn != null) {
     if (Object.keys(theme.recentlyViewed.recent).length <= 1 && theme.recentlyViewed.recent.constructor === Object) {
       // add "NO RV history" popup here
       recentViewBtn.onclick = function() {
@@ -152,4 +153,4 @@ window.onload = function(){
     }
   }
 
-}
+})();
