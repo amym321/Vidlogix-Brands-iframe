@@ -168,7 +168,7 @@
                 {% for variant in product.variants %}
                   <span class="backorder-wrapper" {% if variant != current_variant %}style="display: none;"{% endif %}>
                     <span class="tts tts-wrap tooltip-wrapper " aria-label="{{ settings.condition_new_tooltip }}">
-                      <a class="condition-new-desktop" target="_blank" href="/pages\/extended-warranty" >
+                      <a class="condition-new-desktop" target="_blank" href="/pages\/help-center?main_block=HC-left-faq-3&sub_block=HC-faq-3-8" >
                         <span>{{ section.settings.condition_new }}</span>
                         <img aria-hidden="true" focusable="false" role="presentation" class="icon icon-tooltip tooltip-image" src="{{ settings.backstock_icon | img_url }}">
                       </a>
@@ -328,6 +328,38 @@
                       <img class="apple-pay" src="https://cdn.shopify.com/s/files/1/0056/9632/3651/files/apple-pay_110x.jpg?v=1689701680" alt="Apple Pay"
                           width="55" height="30">
                     </div>
+
+
+                    <script>
+  let date = "";
+  let zero = 0;
+  var dispatched = '2023-07-17';
+
+  if (zero == 0) {
+    let dateDispatched = new Date(dispatched);
+    let day = dateDispatched.getDate();
+    let month = dateDispatched.getMonth() + 1;
+    let dd = day < 10 ? "0" + day : day;
+    let mm = month < 10 ? "0" + month : month;
+    date = `${dd}/${mm}`;
+
+
+    console.log('log 10) dd/mm = '+ date);
+
+    //var date2 = dispatched.toDateString();
+    //console.log('log 11) date2 = '+ date2);
+
+    console.log('log 12) dateDispatched = '+ dateDispatched);
+
+   // var date3 = dateDispatched.substring(0, 10);
+   // console.log('log 13) date3 = '+ date3);
+
+    var date4 = dateDispatched.toISOString().substring(0, 10);
+    console.log('log 14) date4 = '+ date4); // 2023-07-17
+  }
+
+</script>
+
 
 
                   {%- when 'quantity_selector' -%}
