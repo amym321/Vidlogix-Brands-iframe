@@ -1,7 +1,7 @@
 {% comment %} code change per 4.1.1 customization {% endcomment %}
 {%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
 
-<Div class="faq-grid {% unless template == 'page.terms' %} index-section {% endunless %}">
+<Div class="faq-grid-section {% unless template == 'page.terms' %} index-section {% endunless %}">
 
   <div class="page-width page-width--narrow ">
 
@@ -13,88 +13,100 @@
       </header>
     {%- endif -%}
 
-    {%- if section.blocks.size > 0 -%}
-      {%- for block in section.blocks -%}
 
-      {% comment %} UPS Map popup - am {% endcomment %}
-      {% render 'map-popup' %}
+    <div class="faq-grid">
 
-        <div {{ block.shopify_attributes }}>
-          {% case block.type %}
+      <div class="faq-grid-left">
+        <p class="left-subtitle">{{section.settings.left-subtitle}}</p>
+        <h2>{{section.settings.left-title}}</h2>
+        <p>{{section.settings.left-text}}</p>
+      </div>
+      
+      <div class="faq-grid-right">
+        {%- if section.blocks.size > 0 -%}
+          {%- for block in section.blocks -%}
 
-            {% when 'rich-text'%}
-              <div class="faq-grid-text {% unless template == 'page.terms' %} index-section {% endunless %} index-section--faq">
-                <div class="text-{{ block.settings.align_text }}">
-                  {%- if block.settings.title != blank -%}
-                    <div class="section-header">
-                      <h2 class=" section-header__title">
-                        {{ block.settings.title | escape }}
-                      </h2>
-                    </div>
-                  {%- endif -%}
-                  {%- if block.settings.text != blank -%}
-                    <div class="rte">
-                      {%- if block.settings.enlarge_text %}<div class="enlarge-text">{% endif -%}
-                        {{ block.settings.text }}
-                      {%- if block.settings.enlarge_text %}</div>{% endif -%}
-                    </div>
+          {% comment %} UPS Map popup - am {% endcomment %}
+          {% render 'map-popup' %}
 
-                    {% if block.settings.button_chat %}
-                    <a href="/pages\/contact"  class="btn">
-                      {{ block.settings.button_text }}
-                    </a>
-                  {% elsif block.settings.button_link != blank %}
-                      <a class="btn" href="{{ block.settings.button_link }}" class="button">{{ block.settings.button_text }}</a>
-                    {% endif %}
+            <div {{ block.shopify_attributes }}>
+              {% case block.type %}
 
-                  {%- endif -%}
+                {% when 'rich-text'%}
+                  <div class="faq-grid-text {% unless template == 'page.terms' %} index-section {% endunless %} index-section--faq">
+                    <div class="text-{{ block.settings.align_text }}">
+                      {%- if block.settings.title != blank -%}
+                        <div class="section-header">
+                          <h2 class=" section-header__title">
+                            {{ block.settings.title | escape }}
+                          </h2>
+                        </div>
+                      {%- endif -%}
+                      {%- if block.settings.text != blank -%}
+                        <div class="rte">
+                          {%- if block.settings.enlarge_text %}<div class="enlarge-text">{% endif -%}
+                            {{ block.settings.text }}
+                          {%- if block.settings.enlarge_text %}</div>{% endif -%}
+                        </div>
 
-                </div>
-              </div>
-
-            {% when 'question'%}
-              <div class="faq-section" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-                <div id="{% if block.settings.anchor_link != empty %}{{ block.settings.anchor_link }}{% endif %}"></div>
-                
-                <div class="collapsible-container">
-                  <button type="button" class="collapsible-trigger collapsible-trigger--inline collapsible--auto-height text-left" aria-controls="FAQ-content-{{ block.id }}">
-                    {%- render 'collapsible-icons-alt', no_circle: true -%}
-                    <span itemprop="name">{{ block.settings.title }}</span>
-                  </button>
-                  <div id="FAQ-content-{{ block.id }}" class="collapsible-content collapsible-content--all" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                    <div class="collapsible-content__inner collapsible-content__inner--faq rte" itemprop="text">
-                    {% comment %} UPS Map popup - am {% endcomment %}
-                      {% if block.settings.map_popup %}
-                        {% if block.settings.map_text != empty %}
-                          {% comment %} custom coded popup - am {% endcomment %}
-                          <a id="map-btn" class="" style="cursor: pointer;">{{ block.settings.map_text }}</a> 
-                        {% else %}
-                          {% comment %} Help Scout Beacon popup - am {% endcomment %}
-                          <a href="#" data-beacon-article-modal="62c84d1ad242501d78c628c3">UPS Time in Transit Map</a>
+                        {% if block.settings.button_chat %}
+                        <a href="/pages\/contact"  class="btn">
+                          {{ block.settings.button_text }}
+                        </a>
+                      {% elsif block.settings.button_link != blank %}
+                          <a class="btn" href="{{ block.settings.button_link }}" class="button">{{ block.settings.button_text }}</a>
                         {% endif %}
-                      {% endif %}
-                      {{ block.settings.text }}
-                        {% comment %} code added - am. added more text & button to question block{% endcomment %}
-                        {% if block.settings.button_chat2  %}
-                        <a href="/pages\/contact" class="btn">
-                          {{ block.settings.button_text2 }}
-                        </a>
-                      {% elsif block.settings.button_link2 != blank %}
-                        <a class="btn" href="{{ block.settings.button_link2 }}" class="button">
-                          {{ block.settings.button_text2 }}
-                        </a>
-                      {% endif %}
-                      {% if block.settings.text2 %}{{ block.settings.text2 }}{% endif %}
+
+                      {%- endif -%}
+
                     </div>
+                  </div>
+
+                {% when 'question'%}
+                  <div class="faq-section" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <div id="{% if block.settings.anchor_link != empty %}{{ block.settings.anchor_link }}{% endif %}"></div>
+
+                      <div class="collapsible-container">
+                        <button type="button" class="collapsible-trigger collapsible-trigger--inline collapsible--auto-height text-left" aria-controls="FAQ-content-{{ block.id }}">
+                          {%- render 'collapsible-icons-alt', no_circle: true -%}
+                          <span itemprop="name">{{ block.settings.title }}</span>
+                        </button>
+                        <div id="FAQ-content-{{ block.id }}" class="collapsible-content collapsible-content--all" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                          <div class="collapsible-content__inner collapsible-content__inner--faq rte" itemprop="text">
+                          {% comment %} UPS Map popup - am {% endcomment %}
+                            {% if block.settings.map_popup %}
+                              {% if block.settings.map_text != empty %}
+                                {% comment %} custom coded popup - am {% endcomment %}
+                                <a id="map-btn" class="" style="cursor: pointer;">{{ block.settings.map_text }}</a> 
+                              {% else %}
+                                {% comment %} Help Scout Beacon popup - am {% endcomment %}
+                                <a href="#" data-beacon-article-modal="62c84d1ad242501d78c628c3">UPS Time in Transit Map</a>
+                              {% endif %}
+                            {% endif %}
+                            {{ block.settings.text }}
+                              {% comment %} code added - am. added more text & button to question block{% endcomment %}
+                              {% if block.settings.button_chat2  %}
+                              <a href="/pages\/contact" class="btn">
+                                {{ block.settings.button_text2 }}
+                              </a>
+                            {% elsif block.settings.button_link2 != blank %}
+                              <a class="btn" href="{{ block.settings.button_link2 }}" class="button">
+                                {{ block.settings.button_text2 }}
+                              </a>
+                            {% endif %}
+                            {% if block.settings.text2 %}{{ block.settings.text2 }}{% endif %}
+                          </div>
+
+                        </div>
+                      </div>
 
                   </div>
-                </div>
-
-              </div>
-          {% endcase %}
-        </div>
-      {%- endfor -%}
-    {%- endif -%}
+              {% endcase %}
+            </div>
+          {%- endfor -%}
+        {%- endif -%}
+      </div>
+    </div>
 
     {%- if section.blocks.size == 0 -%}
       <div class="placeholder-noblocks">
@@ -105,17 +117,31 @@
 </Div>
 
 <style>
-.faq-grid {
+.faq-grid-section {
   margin: 0;
   padding: 75px 0;
   /*background-color: lightgrey;*/
   background-color: {{section.settings.faq_grid_clr_section}};
 }
 @media (max-width: 768px) {
-  .faq-grid {
+  .faq-grid-section {
       margin: 0;
       padding: 40px 0;
   }
+}
+
+.faq-grid {
+  display: grid
+}
+@media (min-width: 769px) {
+  .faq-grid {
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 6.4rem;
+  }
+}
+
+.faq-grid-left .left-subtitle {
+  padding-top: 50px;
 }
 
 .faq-section {
@@ -129,14 +155,21 @@
   margin: 20px 0;
   padding-left: 15px;
   padding-right: 15px;
+  box-shadow: 0 2rem 6rem #3440540a;
+  border: solid 1px #f2f2f2; /*#f8f6f7;*/
 }
+
+/*.collapsible-trigger,
+.collapsible-content {
+  box-shadow: 0 2rem 6rem #3440540a;
+}*/
 </style>
 
 {%- if section.settings.divider -%}</div>{%- endif -%}
 
 {% schema %}
   {
-    "name": "FAQ",
+    "name": "FAQ Grid",
     "class": "nothing",
     "settings": [
       {
@@ -144,6 +177,24 @@
         "id": "title",
         "label": "Heading",
         "default": "FAQs"
+      },
+      {
+        "type": "text",
+        "id": "left-subtitle",
+        "label": "Suheading on the left",
+        "default": "We have answers!"
+      },
+      {
+        "type": "text",
+        "id": "left-title",
+        "label": "Heading on the left",
+        "default": "Questions?"
+      },
+      {
+        "type": "text",
+        "id": "left-text",
+        "label": "Text on the left",
+        "default": "Can't find the answer you're looking for? Visit our FAQs or chat with our friendly team."
       },
       {
         "type": "color",
