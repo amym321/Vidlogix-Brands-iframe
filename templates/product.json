@@ -341,14 +341,14 @@
         "template--14950974062659__8339fe66-b2a1-4fad-8215-0d8537e6e2d4-question-2": {
           "type": "question",
           "settings": {
-            "title": "Frequently asked question",
+            "title": "Why are your prices so good?",
             "map_popup": false,
-            "map_text": "<p><\/p>",
-            "text": "<p>Use the text to answer questions<\/p>",
+            "map_text": "",
+            "text": "<p>We don't mark prices up only to mark them down and call it a \"sale.\" We work directly with our manufacturing partners to bring you the best quality at the lowest possible price, every day.<\/p><p>Here are a few other reasons why our prices may be lower than expected:<\/p>",
             "button_link2": "",
-            "button_text2": "Button text",
+            "button_text2": "",
             "button_chat2": false,
-            "text2": "<p>Use the text to answer questions<\/p>",
+            "text2": "",
             "anchor_link": ""
           }
         }
