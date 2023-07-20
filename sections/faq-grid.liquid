@@ -18,8 +18,8 @@
 
       <div class="faq-grid-left">
         <p class="left-subtitle">{{section.settings.left_subtitle}}</p>
-        <h2>{{section.settings.left_title}}</h2>
-        <div class="left-text">{{section.settings.left_text}}</div>
+        <h2 class="left-title">{{section.settings.left_title}}</h2>
+        <div class="left-text">{{section.settings.left_text}} <a href="#" onclick="Beacon('open');">{{section.settings.left_chat_text}}</a></div>
       </div>
       
       <div class="faq-grid-right">
@@ -143,6 +143,21 @@
   padding-top: 20px;
 }
 
+.faq-grid-left .left-title {
+  margin-bottom:25px;
+}
+
+@media (max-width: 768px) {
+  .faq-grid-left .left-text {
+    padding-bottom: 35px;
+  }
+}
+
+.faq-grid-left .left-text p {
+  margin:0;
+  display: inline;
+}
+
 .faq-grid-left .left-text a {
   text-decoration: none;
   border-bottom: 1px solid;
@@ -209,7 +224,13 @@
         "type": "richtext",
         "id": "left_text",
         "label": "Text on the left",
-        "default": "<p>Can't find the answer you're looking for? Visit our FAQs or chat with our friendly team.</p>"
+        "default": "<p>Can't find the answer you're looking for? Visit our FAQs or</p>"
+      },
+      {
+        "type": "text",
+        "id": "left_chat_text",
+        "label": "Text on the left",
+        "default": "chat with our friendly team."
       },
       {
         "type": "color",
