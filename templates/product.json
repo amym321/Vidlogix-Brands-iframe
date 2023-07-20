@@ -320,6 +320,49 @@
         "show_divider": false
       }
     },
+    "8339fe66-b2a1-4fad-8215-0d8537e6e2d4": {
+      "type": "faq-grid",
+      "disabled": true,
+      "blocks": {
+        "template--14950974062659__8339fe66-b2a1-4fad-8215-0d8537e6e2d4-question-1": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "map_popup": false,
+            "map_text": "<p><\/p>",
+            "text": "<p>Use the text to answer questions<\/p>",
+            "button_link2": "",
+            "button_text2": "Button text",
+            "button_chat2": false,
+            "text2": "<p>Use the text to answer questions<\/p>",
+            "anchor_link": ""
+          }
+        },
+        "template--14950974062659__8339fe66-b2a1-4fad-8215-0d8537e6e2d4-question-2": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "map_popup": false,
+            "map_text": "<p><\/p>",
+            "text": "<p>Use the text to answer questions<\/p>",
+            "button_link2": "",
+            "button_text2": "Button text",
+            "button_chat2": false,
+            "text2": "<p>Use the text to answer questions<\/p>",
+            "anchor_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14950974062659__8339fe66-b2a1-4fad-8215-0d8537e6e2d4-question-1",
+        "template--14950974062659__8339fe66-b2a1-4fad-8215-0d8537e6e2d4-question-2"
+      ],
+      "settings": {
+        "title": "FAQ Grid",
+        "faq_grid_clr_section": "#f8f6f7",
+        "faq_grid_clr_faq": "#ffffff"
+      }
+    },
     "loox-product-reviews-app-section": {
       "type": "apps",
       "disabled": true,
@@ -357,6 +400,7 @@
     "text-and-image",
     "4db580b1-2115-4bd5-a7eb-e028381e3f41",
     "1643590083d72e73b9",
+    "8339fe66-b2a1-4fad-8215-0d8537e6e2d4",
     "loox-product-reviews-app-section"
   ]
 }
