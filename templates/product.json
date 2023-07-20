@@ -351,11 +351,26 @@
             "text2": "",
             "anchor_link": ""
           }
+        },
+        "d1458e38-c659-46dd-b1b2-d52eb7549bd0": {
+          "type": "question",
+          "settings": {
+            "title": "Is the product new condition?",
+            "map_popup": false,
+            "map_text": "",
+            "text": "<p>Vidlogix only sells new equipment made for the U.S. market. <a href=\"https:\/\/vidlogix.com\/pages\/help-center?main_block=HC-left-faq-3&sub_block=HC-faq-3-8\" target=\"_blank\">Learn more<\/a>.<\/p>",
+            "button_link2": "",
+            "button_text2": "",
+            "button_chat2": false,
+            "text2": "",
+            "anchor_link": ""
+          }
         }
       },
       "block_order": [
         "template--14950974062659__8339fe66-b2a1-4fad-8215-0d8537e6e2d4-question-1",
-        "template--14950974062659__8339fe66-b2a1-4fad-8215-0d8537e6e2d4-question-2"
+        "template--14950974062659__8339fe66-b2a1-4fad-8215-0d8537e6e2d4-question-2",
+        "d1458e38-c659-46dd-b1b2-d52eb7549bd0"
       ],
       "settings": {
         "title": "FAQ Grid",
