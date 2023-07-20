@@ -169,6 +169,94 @@
         "space_around": true
       }
     },
+    "8339fe66-b2a1-4fad-8215-0d8537e6e2d4": {
+      "type": "faq-grid",
+      "disabled": true,
+      "blocks": {
+        "template--14950974062659__8339fe66-b2a1-4fad-8215-0d8537e6e2d4-question-1": {
+          "type": "question",
+          "settings": {
+            "title": "Are you an authorized dealer?",
+            "map_popup": false,
+            "map_text": "",
+            "text": "<p>Yes, of course! Vidlogix is an authorized retailer for every brand we sell. Not every website is an authorized retailer for the products they're selling. But Vidlogix is an authorized dealer for every single brand we carry. <a href=\"https:\/\/vidlogix.com\/pages\/help-center?main_block=HC-left-faq-4&sub_block=HC-faq-4-2\" target=\"_blank\">Learn more<\/a>.<\/p>",
+            "button_link2": "",
+            "button_text2": "Button text",
+            "button_chat2": false,
+            "text2": "",
+            "anchor_link": ""
+          }
+        },
+        "template--14950974062659__8339fe66-b2a1-4fad-8215-0d8537e6e2d4-question-2": {
+          "type": "question",
+          "settings": {
+            "title": "Why are your prices so good?",
+            "map_popup": false,
+            "map_text": "",
+            "text": "<p>We don't mark prices up only to mark them down and call it a \"sale.\" We work directly with our manufacturing partners to bring you the best quality at the lowest possible price, every day.<\/p><p>Here are a few other reasons why our prices may be lower than expected:<\/p><ul><li>No commissions or pushy salespeople.<\/li><li>We specialize in fewer brands & products.<\/li><li>No offices or stores. 95% work from home.<\/li><li>Automated order & warehouse management.<\/li><li>Overstock Items offered at clearance prices.<\/li><li>The secret sauce, etc.<\/li><\/ul>",
+            "button_link2": "",
+            "button_text2": "",
+            "button_chat2": false,
+            "text2": "",
+            "anchor_link": ""
+          }
+        },
+        "d1458e38-c659-46dd-b1b2-d52eb7549bd0": {
+          "type": "question",
+          "settings": {
+            "title": "Is the product new condition?",
+            "map_popup": false,
+            "map_text": "",
+            "text": "<p>Vidlogix only sells new equipment made for the U.S. market. <a href=\"https:\/\/vidlogix.com\/pages\/help-center?main_block=HC-left-faq-3&sub_block=HC-faq-3-8\" target=\"_blank\">Learn more<\/a>.<\/p>",
+            "button_link2": "",
+            "button_text2": "",
+            "button_chat2": false,
+            "text2": "",
+            "anchor_link": ""
+          }
+        },
+        "bcc558e3-56e0-4ce8-8cfb-b04b8352dbba": {
+          "type": "question",
+          "settings": {
+            "title": "Do you charge sales & use tax?",
+            "map_popup": false,
+            "map_text": "",
+            "text": "<p>Vidlogix does not charge sales tax. <a href=\"https:\/\/vidlogix.com\/pages\/help-center?main_block=HC-left-faq-3&sub_block=HC-faq-3-6\" target=\"_blank\">Learn more<\/a>.<\/p>",
+            "button_link2": "",
+            "button_text2": "Button text",
+            "button_chat2": false,
+            "text2": "",
+            "anchor_link": ""
+          }
+        },
+        "2d72a94d-c6f8-453d-aeb6-4bf6b33a9f9b": {
+          "type": "question",
+          "settings": {
+            "title": "What if I have more questions?",
+            "map_popup": false,
+            "map_text": "",
+            "text": "<p>Vidlogix is always at your service. We’re here to help with existing, new, or in-progress home audio, video, or smart home technology projects. Ensuring your total satisfaction is our passion.<\/p><p><strong>Call\/Text<\/strong>: <a href=\"tel:6313725004\" target=\"_blank\">631-372-5004<\/a><\/p><p><strong>E-mail<\/strong>: <a href=\"mailto:hello@vidlogix.com\" target=\"_blank\">hello@vidlogix.com<\/a><\/p><p><strong>Visit<\/strong>: 160 Varick<br\/>St, NY, NY 10013<\/p>",
+            "button_link2": "",
+            "button_text2": "",
+            "button_chat2": false,
+            "text2": "",
+            "anchor_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14950974062659__8339fe66-b2a1-4fad-8215-0d8537e6e2d4-question-1",
+        "template--14950974062659__8339fe66-b2a1-4fad-8215-0d8537e6e2d4-question-2",
+        "d1458e38-c659-46dd-b1b2-d52eb7549bd0",
+        "bcc558e3-56e0-4ce8-8cfb-b04b8352dbba",
+        "2d72a94d-c6f8-453d-aeb6-4bf6b33a9f9b"
+      ],
+      "settings": {
+        "title": "FAQ Grid",
+        "faq_grid_clr_section": "#f8f6f7",
+        "faq_grid_clr_faq": "#ffffff"
+      }
+    },
     "text-and-image": {
       "type": "text-and-image",
       "settings": {
@@ -320,94 +408,6 @@
         "show_divider": false
       }
     },
-    "8339fe66-b2a1-4fad-8215-0d8537e6e2d4": {
-      "type": "faq-grid",
-      "disabled": true,
-      "blocks": {
-        "template--14950974062659__8339fe66-b2a1-4fad-8215-0d8537e6e2d4-question-1": {
-          "type": "question",
-          "settings": {
-            "title": "Are you an authorized dealer?",
-            "map_popup": false,
-            "map_text": "",
-            "text": "<p>Yes, of course! Vidlogix is an authorized retailer for every brand we sell. Not every website is an authorized retailer for the products they're selling. But Vidlogix is an authorized dealer for every single brand we carry. <a href=\"https:\/\/vidlogix.com\/pages\/help-center?main_block=HC-left-faq-4&sub_block=HC-faq-4-2\" target=\"_blank\">Learn more<\/a>.<\/p>",
-            "button_link2": "",
-            "button_text2": "Button text",
-            "button_chat2": false,
-            "text2": "",
-            "anchor_link": ""
-          }
-        },
-        "template--14950974062659__8339fe66-b2a1-4fad-8215-0d8537e6e2d4-question-2": {
-          "type": "question",
-          "settings": {
-            "title": "Why are your prices so good?",
-            "map_popup": false,
-            "map_text": "",
-            "text": "<p>We don't mark prices up only to mark them down and call it a \"sale.\" We work directly with our manufacturing partners to bring you the best quality at the lowest possible price, every day.<\/p><p>Here are a few other reasons why our prices may be lower than expected:<\/p><ul><li>No commissions or pushy salespeople.<\/li><li>We specialize in fewer brands & products.<\/li><li>No offices or stores. 95% work from home.<\/li><li>Automated order & warehouse management.<\/li><li>Overstock Items offered at clearance prices.<\/li><li>The secret sauce, etc.<\/li><\/ul>",
-            "button_link2": "",
-            "button_text2": "",
-            "button_chat2": false,
-            "text2": "",
-            "anchor_link": ""
-          }
-        },
-        "d1458e38-c659-46dd-b1b2-d52eb7549bd0": {
-          "type": "question",
-          "settings": {
-            "title": "Is the product new condition?",
-            "map_popup": false,
-            "map_text": "",
-            "text": "<p>Vidlogix only sells new equipment made for the U.S. market. <a href=\"https:\/\/vidlogix.com\/pages\/help-center?main_block=HC-left-faq-3&sub_block=HC-faq-3-8\" target=\"_blank\">Learn more<\/a>.<\/p>",
-            "button_link2": "",
-            "button_text2": "",
-            "button_chat2": false,
-            "text2": "",
-            "anchor_link": ""
-          }
-        },
-        "bcc558e3-56e0-4ce8-8cfb-b04b8352dbba": {
-          "type": "question",
-          "settings": {
-            "title": "Do you charge sales & use tax?",
-            "map_popup": false,
-            "map_text": "",
-            "text": "<p>Vidlogix does not charge sales tax. <a href=\"https:\/\/vidlogix.com\/pages\/help-center?main_block=HC-left-faq-3&sub_block=HC-faq-3-6\" target=\"_blank\">Learn more<\/a>.<\/p>",
-            "button_link2": "",
-            "button_text2": "Button text",
-            "button_chat2": false,
-            "text2": "",
-            "anchor_link": ""
-          }
-        },
-        "2d72a94d-c6f8-453d-aeb6-4bf6b33a9f9b": {
-          "type": "question",
-          "settings": {
-            "title": "What if I have more questions?",
-            "map_popup": false,
-            "map_text": "",
-            "text": "<p>Vidlogix is always at your service. We’re here to help with existing, new, or in-progress home audio, video, or smart home technology projects. Ensuring your total satisfaction is our passion.<\/p><p><strong>Call\/Text<\/strong>: <a href=\"tel:6313725004\" target=\"_blank\">631-372-5004<\/a><\/p><p><strong>E-mail<\/strong>: <a href=\"mailto:hello@vidlogix.com\" target=\"_blank\">hello@vidlogix.com<\/a><\/p><p><strong>Visit<\/strong>: 160 Varick St, NY, NY 10013<\/p>",
-            "button_link2": "",
-            "button_text2": "",
-            "button_chat2": false,
-            "text2": "",
-            "anchor_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--14950974062659__8339fe66-b2a1-4fad-8215-0d8537e6e2d4-question-1",
-        "template--14950974062659__8339fe66-b2a1-4fad-8215-0d8537e6e2d4-question-2",
-        "d1458e38-c659-46dd-b1b2-d52eb7549bd0",
-        "bcc558e3-56e0-4ce8-8cfb-b04b8352dbba",
-        "2d72a94d-c6f8-453d-aeb6-4bf6b33a9f9b"
-      ],
-      "settings": {
-        "title": "FAQ Grid",
-        "faq_grid_clr_section": "#f8f6f7",
-        "faq_grid_clr_faq": "#ffffff"
-      }
-    },
     "loox-product-reviews-app-section": {
       "type": "apps",
       "disabled": true,
@@ -442,10 +442,10 @@
     "recently-viewed",
     "collection-return",
     "1637459177d4db9b86",
+    "8339fe66-b2a1-4fad-8215-0d8537e6e2d4",
     "text-and-image",
     "4db580b1-2115-4bd5-a7eb-e028381e3f41",
     "1643590083d72e73b9",
-    "8339fe66-b2a1-4fad-8215-0d8537e6e2d4",
     "loox-product-reviews-app-section"
   ]
 }
