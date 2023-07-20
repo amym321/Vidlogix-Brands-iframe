@@ -379,13 +379,28 @@
             "text2": "",
             "anchor_link": ""
           }
+        },
+        "2d72a94d-c6f8-453d-aeb6-4bf6b33a9f9b": {
+          "type": "question",
+          "settings": {
+            "title": "What if I have more questions?",
+            "map_popup": false,
+            "map_text": "",
+            "text": "<p>Vidlogix is always at your service. We’re here to help with existing, new, or in-progress home audio, video, or smart home technology projects. Ensuring your total satisfaction is our passion.<\/p><p><strong>Call\/Text<\/strong>: <a href=\"tel:6313725004\" target=\"_blank\">631-372-5004<\/a><\/p><p><strong>E-mail<\/strong>: <a href=\"mailto:hello@vidlogix.com\" target=\"_blank\">hello@vidlogix.com<\/a><\/p><p><strong>Visit<\/strong>: 160 Varick<br\/>St, NY, NY 10013<\/p>",
+            "button_link2": "",
+            "button_text2": "",
+            "button_chat2": false,
+            "text2": "",
+            "anchor_link": ""
+          }
         }
       },
       "block_order": [
         "template--14950974062659__8339fe66-b2a1-4fad-8215-0d8537e6e2d4-question-1",
         "template--14950974062659__8339fe66-b2a1-4fad-8215-0d8537e6e2d4-question-2",
         "d1458e38-c659-46dd-b1b2-d52eb7549bd0",
-        "bcc558e3-56e0-4ce8-8cfb-b04b8352dbba"
+        "bcc558e3-56e0-4ce8-8cfb-b04b8352dbba",
+        "2d72a94d-c6f8-453d-aeb6-4bf6b33a9f9b"
       ],
       "settings": {
         "title": "FAQ Grid",
