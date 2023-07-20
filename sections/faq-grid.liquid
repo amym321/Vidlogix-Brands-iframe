@@ -19,7 +19,7 @@
       <div class="faq-grid-left">
         <p class="left-subtitle">{{section.settings.left_subtitle}}</p>
         <h2>{{section.settings.left_title}}</h2>
-        <p>{{section.settings.left_text}}</p>
+        <div class="left-text">{{section.settings.left_text}}</div>
       </div>
       
       <div class="faq-grid-right">
@@ -141,6 +141,28 @@
 
 .faq-grid-left .left-subtitle {
   padding-top: 20px;
+}
+
+.faq-grid-left .left-text a {
+  text-decoration: none;
+  border-bottom: 1px solid;
+  color: var(--colorLink);
+  border-bottom-color: #f6c12f;
+  position: relative;
+  display: inline-block;
+}
+
+.faq-grid-left .left-text a:after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0%;
+  border-bottom: 2px solid currentColor;
+  transition: width .5s ease;
+}
+.faq-grid-left .left-text a:hover:after {
+    width: 100%;
 }
 
 .faq-section {
