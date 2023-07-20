@@ -252,8 +252,8 @@
         "2d72a94d-c6f8-453d-aeb6-4bf6b33a9f9b"
       ],
       "settings": {
-        "title": "FAQ Grid",
-        "faq_grid_clr_section": "#f8f6f7",
+        "title": "",
+        "faq_grid_clr_section": "#ffffff",
         "faq_grid_clr_faq": "#ffffff"
       }
     },
