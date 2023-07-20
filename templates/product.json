@@ -365,12 +365,27 @@
             "text2": "",
             "anchor_link": ""
           }
+        },
+        "bcc558e3-56e0-4ce8-8cfb-b04b8352dbba": {
+          "type": "question",
+          "settings": {
+            "title": "Do you charge sales & use tax?",
+            "map_popup": false,
+            "map_text": "",
+            "text": "<p>Vidlogix does not charge sales tax. <a href=\"https:\/\/vidlogix.com\/pages\/help-center?main_block=HC-left-faq-3&sub_block=HC-faq-3-6\" target=\"_blank\">Learn more<\/a>.<\/p>",
+            "button_link2": "",
+            "button_text2": "Button text",
+            "button_chat2": false,
+            "text2": "",
+            "anchor_link": ""
+          }
         }
       },
       "block_order": [
         "template--14950974062659__8339fe66-b2a1-4fad-8215-0d8537e6e2d4-question-1",
         "template--14950974062659__8339fe66-b2a1-4fad-8215-0d8537e6e2d4-question-2",
-        "d1458e38-c659-46dd-b1b2-d52eb7549bd0"
+        "d1458e38-c659-46dd-b1b2-d52eb7549bd0",
+        "bcc558e3-56e0-4ce8-8cfb-b04b8352dbba"
       ],
       "settings": {
         "title": "FAQ Grid",
