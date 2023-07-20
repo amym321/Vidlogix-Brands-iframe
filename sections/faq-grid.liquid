@@ -120,7 +120,6 @@
 .faq-grid-section {
   margin: 0;
   padding: 75px 0;
-  /*background-color: lightgrey;*/
   background-color: {{section.settings.faq_grid_clr_section}};
 }
 @media (max-width: 768px) {
@@ -141,7 +140,7 @@
 }
 
 .faq-grid-left .left-subtitle {
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 .faq-section {
@@ -150,7 +149,6 @@
 
 .collapsible-container {
   border-radius: 0.8rem;
-  /*background-color:#fff;*/
   background-color:{{section.settings.faq_grid_clr_faq}};
   margin: 20px 0;
   padding-left: 15px;
@@ -158,11 +156,6 @@
   box-shadow: 0 2rem 6rem #3440540a;
   border: solid 1px #f2f2f2; /*#f8f6f7;*/
 }
-
-/*.collapsible-trigger,
-.collapsible-content {
-  box-shadow: 0 2rem 6rem #3440540a;
-}*/
 </style>
 
 {%- if section.settings.divider -%}</div>{%- endif -%}
@@ -194,7 +187,7 @@
         "type": "richtext",
         "id": "left_text",
         "label": "Text on the left",
-        "default": "Can't find the answer you're looking for? Visit our FAQs or chat with our friendly team."
+        "default": "<p>Can't find the answer you're looking for? Visit our FAQs or chat with our friendly team.</p>"
       },
       {
         "type": "color",
