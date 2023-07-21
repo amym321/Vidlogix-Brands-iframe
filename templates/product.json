@@ -210,6 +210,20 @@
             "anchor_link": ""
           }
         },
+        "2d72a94d-c6f8-453d-aeb6-4bf6b33a9f9b": {
+          "type": "question",
+          "settings": {
+            "title": "What is your warranty policy?",
+            "map_popup": false,
+            "map_text": "",
+            "text": "<p>All items sold by Vidlogix include a full manufacturer's warranty and our free one (1) year extended warranty. <a href=\"https:\/\/vidlogix.com\/pages\/help-center?main_block=HC-left-faq-1&sub_block=HC-faq-1-1\" target=\"_blank\" title=\"https:\/\/vidlogix.com\/pages\/help-center?main_block=HC-left-faq-1&sub_block=HC-faq-1-1\">Learn more.<\/a><\/p>",
+            "button_link2": "",
+            "button_text2": "",
+            "button_chat2": false,
+            "text2": "",
+            "anchor_link": ""
+          }
+        },
         "template--14950974062659__8339fe66-b2a1-4fad-8215-0d8537e6e2d4-question-2": {
           "type": "question",
           "settings": {
@@ -241,7 +255,7 @@
         "bcc558e3-56e0-4ce8-8cfb-b04b8352dbba": {
           "type": "question",
           "settings": {
-            "title": "Do you charge sales & use tax?",
+            "title": "Do you charge sales tax?",
             "map_popup": false,
             "map_text": "",
             "text": "<p>Vidlogix does not charge sales tax. <a href=\"https:\/\/vidlogix.com\/pages\/help-center?main_block=HC-left-faq-3&sub_block=HC-faq-3-6\" target=\"_blank\">Learn more<\/a>.<\/p>",
@@ -251,28 +265,14 @@
             "text2": "",
             "anchor_link": ""
           }
-        },
-        "2d72a94d-c6f8-453d-aeb6-4bf6b33a9f9b": {
-          "type": "question",
-          "settings": {
-            "title": "What is your warranty policy?",
-            "map_popup": false,
-            "map_text": "",
-            "text": "<p>All items sold by Vidlogix include a full manufacturer's warranty and our free one (1) year extended warranty. <a href=\"https:\/\/vidlogix.com\/pages\/help-center?main_block=HC-left-faq-1&sub_block=HC-faq-1-1\" target=\"_blank\" title=\"https:\/\/vidlogix.com\/pages\/help-center?main_block=HC-left-faq-1&sub_block=HC-faq-1-1\">Learn more.<\/a><\/p>",
-            "button_link2": "",
-            "button_text2": "",
-            "button_chat2": false,
-            "text2": "",
-            "anchor_link": ""
-          }
         }
       },
       "block_order": [
         "template--14950974062659__8339fe66-b2a1-4fad-8215-0d8537e6e2d4-question-1",
+        "2d72a94d-c6f8-453d-aeb6-4bf6b33a9f9b",
         "template--14950974062659__8339fe66-b2a1-4fad-8215-0d8537e6e2d4-question-2",
         "d1458e38-c659-46dd-b1b2-d52eb7549bd0",
-        "bcc558e3-56e0-4ce8-8cfb-b04b8352dbba",
-        "2d72a94d-c6f8-453d-aeb6-4bf6b33a9f9b"
+        "bcc558e3-56e0-4ce8-8cfb-b04b8352dbba"
       ],
       "settings": {
         "title": "",
