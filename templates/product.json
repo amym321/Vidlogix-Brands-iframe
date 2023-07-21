@@ -256,7 +256,7 @@
         "left_title": "Questions?",
         "left_text": "<p>Can't find the answer you're looking for? Visit our <a href=\"https:\/\/vidlogix.com\/pages\/help-center?main_block=HC-left-faq-1&sub_block=HC-faq-1-1\" title=\"https:\/\/vidlogix.com\/pages\/help-center?main_block=HC-left-faq-1&sub_block=HC-faq-1-1\">FAQs<\/a> or<\/p>",
         "left_chat_text": "chat with our friendly team.",
-        "faq_grid_clr_section": "#f8f6f7",
+        "faq_grid_clr_section": "#ffffff",
         "faq_grid_clr_faq": "#ffffff"
       }
     },
