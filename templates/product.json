@@ -171,7 +171,6 @@
     },
     "8339fe66-b2a1-4fad-8215-0d8537e6e2d4": {
       "type": "faq-grid",
-      "disabled": true,
       "blocks": {
         "template--14950974062659__8339fe66-b2a1-4fad-8215-0d8537e6e2d4-question-1": {
           "type": "question",
