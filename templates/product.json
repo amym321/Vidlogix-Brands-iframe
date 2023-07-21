@@ -255,7 +255,7 @@
         "bcc558e3-56e0-4ce8-8cfb-b04b8352dbba": {
           "type": "question",
           "settings": {
-            "title": "Do you charge sales\/use tax?",
+            "title": "Do you charge sales tax\/VAT?",
             "map_popup": false,
             "map_text": "",
             "text": "<p>Vidlogix does not charge sales tax. <a href=\"https:\/\/vidlogix.com\/pages\/help-center?main_block=HC-left-faq-3&sub_block=HC-faq-3-6\" target=\"_blank\">Learn more<\/a>.<\/p>",
