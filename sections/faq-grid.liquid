@@ -17,13 +17,16 @@
     <div class="faq-grid">
 
       <div class="faq-grid-left">
-        <p class="left-subtitle">{{section.settings.left_subtitle}}</p>
-        <h2 class="left-title">{{section.settings.left_title}}</h2>
-        {% comment %} <div class="left-text">{{section.settings.left_text}} <a href="#" onclick="Beacon('open');">{{section.settings.left_chat_text}}</a></div> {% endcomment %}
-        <div class="left-text">{{section.settings.left_text}} <a href="/pages/contact">{{section.settings.left_chat_text}}</a></div>
+        <div class="faq-sticky">
+          <p class="left-subtitle">{{section.settings.left_subtitle}}</p>
+          <h2 class="left-title">{{section.settings.left_title}}</h2>
+          {% comment %} <div class="left-text">{{section.settings.left_text}} <a href="/pages/contact">{{section.settings.left_chat_text}}</a></div> {% endcomment %}
+          {% comment %} <div class="left-text">{{section.settings.left_text}} <a href="#" onclick="Beacon('open');">{{section.settings.left_chat_text}}</a></div> {% endcomment %}
+          <div class="left-text">{{section.settings.left_text}} <span id="beacon-faq">{{section.settings.left_chat_text}}</span></div>
+        </div>
       </div>
       
-      <div class="faq-grid-right">
+      <div id="right-wrapper" class="faq-grid-right">
         {%- if section.blocks.size > 0 -%}
           {%- for block in section.blocks -%}
 
@@ -117,6 +120,21 @@
   </div>
 </Div>
 
+
+<script>
+  (function(){
+    var beaconFaq = document.getElementById('beacon-faq');
+
+    if (beaconFaq != null){
+      beaconFaq.onclick = function() {
+        Beacon('open');
+        Beacon('navigate', '/ask/message/');
+      }
+    }
+  })();
+</script>
+
+
 <style>
 .faq-grid-section {
   margin: 0;
@@ -131,7 +149,7 @@
 }
 
 .faq-grid-section .page-width--narrow {
-  max-width: none;
+  max-width: 1500px;
 }
 
 .faq-grid {
@@ -141,6 +159,17 @@
   .faq-grid {
     grid-template-columns: 1fr 2fr;
     grid-gap: 6.4rem;
+  }
+}
+
+.faq-sticky {
+  top: 0;
+  position: sticky;
+}
+
+@media (min-width: 769px) {
+  .faq-grid-left {
+    padding-left: 10px;
   }
 }
 
@@ -163,16 +192,20 @@
   display: inline;
 }
 
-.faq-grid-left .left-text a {
+.faq-grid-left .left-text a,
+#beacon-faq {
   text-decoration: none;
   border-bottom: 1px solid;
   color: var(--colorLink);
   border-bottom-color: #f6c12f;
   position: relative;
   display: inline-block;
+  cursor: pointer;
 }
 
-.faq-grid-left .left-text a:after {
+.faq-grid-left .left-text a:after,
+#beacon-faq:after {
+
   content: "";
   position: absolute;
   bottom: -2px;
@@ -181,7 +214,9 @@
   border-bottom: 2px solid currentColor;
   transition: width .5s ease;
 }
-.faq-grid-left .left-text a:hover:after {
+.faq-grid-left .left-text a:hover:after,
+#beacon-faq:hover:after {
+
     width: 100%;
 }
 
