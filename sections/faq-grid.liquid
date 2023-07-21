@@ -1,4 +1,4 @@
-{% comment %} code change per 4.1.1 customization {% endcomment %}
+{% comment %} FAQ Grid for pdp faq. left text - am {% endcomment %}
 {%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
 
 <Div class="faq-grid-section {% unless template == 'page.terms' %} index-section {% endunless %}">
@@ -19,7 +19,8 @@
       <div class="faq-grid-left">
         <p class="left-subtitle">{{section.settings.left_subtitle}}</p>
         <h2 class="left-title">{{section.settings.left_title}}</h2>
-        <div class="left-text">{{section.settings.left_text}} <a href="#" onclick="Beacon('open');">{{section.settings.left_chat_text}}</a></div>
+        {% comment %} <div class="left-text">{{section.settings.left_text}} <a href="#" onclick="Beacon('open');">{{section.settings.left_chat_text}}</a></div> {% endcomment %}
+        <div class="left-text">{{section.settings.left_text}} <a href="/pages/contact">{{section.settings.left_chat_text}}</a></div>
       </div>
       
       <div class="faq-grid-right">
