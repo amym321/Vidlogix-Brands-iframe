@@ -266,6 +266,20 @@
             "text2": "",
             "anchor_link": ""
           }
+        },
+        "3375218b-c53a-46af-aa5d-20994323bb2a": {
+          "type": "question",
+          "settings": {
+            "title": "Do you have a store near me?",
+            "map_popup": false,
+            "map_text": "",
+            "text": "<p>Our corporate office is located at 160 Varick St, NY, NY 10013. We own and operate 10 nationwide distribution centers (hubs). More hubs means less wait. 1-2 day ground delivery to most locations. <a href=\"https:\/\/vidlogix.com\/pages\/help-center?main_block=HC-left-faq-2&sub_block=HC-faq-2-1\" target=\"_blank\" title=\"https:\/\/vidlogix.com\/pages\/help-center?main_block=HC-left-faq-2&sub_block=HC-faq-2-1\">Learn more<\/a>.<\/p>",
+            "button_link2": "",
+            "button_text2": "Button text",
+            "button_chat2": false,
+            "text2": "<p>Use the text to answer questions<\/p>",
+            "anchor_link": ""
+          }
         }
       },
       "block_order": [
@@ -273,7 +287,8 @@
         "2d72a94d-c6f8-453d-aeb6-4bf6b33a9f9b",
         "template--14950974062659__8339fe66-b2a1-4fad-8215-0d8537e6e2d4-question-2",
         "d1458e38-c659-46dd-b1b2-d52eb7549bd0",
-        "bcc558e3-56e0-4ce8-8cfb-b04b8352dbba"
+        "bcc558e3-56e0-4ce8-8cfb-b04b8352dbba",
+        "3375218b-c53a-46af-aa5d-20994323bb2a"
       ],
       "settings": {
         "title": "",
