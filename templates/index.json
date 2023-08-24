@@ -153,95 +153,6 @@
         "height": 550
       }
     },
-    "blog-posts": {
-      "type": "blog-posts",
-      "settings": {
-        "title": "From the journal",
-        "blog": "news",
-        "post_limit": 3,
-        "blog_show_tags": false,
-        "blog_show_date": true,
-        "blog_show_comments": false,
-        "blog_show_author": false,
-        "view_all": true,
-        "blog_image_size": "wide",
-        "divider": false,
-        "background_color": "#f4f4f4"
-      }
-    },
-    "16374606876c4b0894": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Best Sellers",
-        "home_featured_products": "best-sellers",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
-    "163746679950095452": {
-      "type": "testimonials",
-      "blocks": {
-        "163746679909a0cbe2-2": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "quote",
-            "testimonial": "<p>The price was right. The shipping was quick. The packaging was perfect. How is customer service this good in the 21st century? Keep doing simple & good work.<\/p>",
-            "image": "shopify:\/\/shop_images\/UGC-2.png",
-            "author": "Michael V.",
-            "author_info": ""
-          }
-        },
-        "163746679909a0cbe2-3": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>Vidlogix is a large retailer, but there's still that hometown feeling they've been able to preserve within their culture. You feel like you're dealing with something other than a box store.<\/p>",
-            "image": "shopify:\/\/shop_images\/UGC-6.png",
-            "author": "Diane K.",
-            "author_info": ""
-          }
-        },
-        "163746679909a0cbe2-0": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>Had an absolutely excellent experience with Jesse. He was helpful, friendly, listened & made great recommendations<\/p>",
-            "image": "shopify:\/\/shop_images\/UGC-1.png",
-            "author": "Natasha A.",
-            "author_info": ""
-          }
-        },
-        "163746679909a0cbe2-1": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>The reason I look to you for electronic equipment is customer service, period. Your sales people know their equipment.<\/p>",
-            "image": "shopify:\/\/shop_images\/UGC-4.png",
-            "author": "Karen F.",
-            "author_info": ""
-          }
-        }
-      },
-      "block_order": [
-        "163746679909a0cbe2-2",
-        "163746679909a0cbe2-3",
-        "163746679909a0cbe2-0",
-        "163746679909a0cbe2-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "Happy Customers",
-        "align_text": "center",
-        "more_link": "https:\/\/www.trustpilot.com\/review\/vidlogix.com",
-        "link_text": "Read All Reviews",
-        "round_images": true,
-        "color_background": "#f9f9f9",
-        "color_text": "#1c1d1d"
-      }
-    },
     "3b32f828-d327-4c96-98d7-6c8310903c53": {
       "type": "testimonials-about",
       "blocks": {
@@ -334,6 +245,95 @@
         "color_text": "#1c1d1d"
       }
     },
+    "16374606876c4b0894": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Best Sellers",
+        "home_featured_products": "best-sellers",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "163746679950095452": {
+      "type": "testimonials",
+      "blocks": {
+        "163746679909a0cbe2-2": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "testimonial": "<p>The price was right. The shipping was quick. The packaging was perfect. How is customer service this good in the 21st century? Keep doing simple & good work.<\/p>",
+            "image": "shopify:\/\/shop_images\/UGC-2.png",
+            "author": "Michael V.",
+            "author_info": ""
+          }
+        },
+        "163746679909a0cbe2-3": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Vidlogix is a large retailer, but there's still that hometown feeling they've been able to preserve within their culture. You feel like you're dealing with something other than a box store.<\/p>",
+            "image": "shopify:\/\/shop_images\/UGC-6.png",
+            "author": "Diane K.",
+            "author_info": ""
+          }
+        },
+        "163746679909a0cbe2-0": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Had an absolutely excellent experience with Jesse. He was helpful, friendly, listened & made great recommendations<\/p>",
+            "image": "shopify:\/\/shop_images\/UGC-1.png",
+            "author": "Natasha A.",
+            "author_info": ""
+          }
+        },
+        "163746679909a0cbe2-1": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>The reason I look to you for electronic equipment is customer service, period. Your sales people know their equipment.<\/p>",
+            "image": "shopify:\/\/shop_images\/UGC-4.png",
+            "author": "Karen F.",
+            "author_info": ""
+          }
+        }
+      },
+      "block_order": [
+        "163746679909a0cbe2-2",
+        "163746679909a0cbe2-3",
+        "163746679909a0cbe2-0",
+        "163746679909a0cbe2-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Happy Customers",
+        "align_text": "center",
+        "more_link": "https:\/\/www.trustpilot.com\/review\/vidlogix.com",
+        "link_text": "Read All Reviews",
+        "round_images": true,
+        "color_background": "#f9f9f9",
+        "color_text": "#1c1d1d"
+      }
+    },
+    "blog-posts": {
+      "type": "blog-posts",
+      "settings": {
+        "title": "From the journal",
+        "blog": "news",
+        "post_limit": 3,
+        "blog_show_tags": false,
+        "blog_show_date": true,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "view_all": true,
+        "blog_image_size": "wide",
+        "divider": false,
+        "background_color": "#f4f4f4"
+      }
+    },
     "16374675471ddb7cfa": {
       "type": "newsletter",
       "blocks": {
@@ -380,10 +380,10 @@
     "slideshow",
     "1637960314fb05cbb5",
     "16374663436f00eb2c",
-    "blog-posts",
+    "3b32f828-d327-4c96-98d7-6c8310903c53",
     "16374606876c4b0894",
     "163746679950095452",
-    "3b32f828-d327-4c96-98d7-6c8310903c53",
+    "blog-posts",
     "16374675471ddb7cfa",
     "16601287683bcf7464"
   ]
