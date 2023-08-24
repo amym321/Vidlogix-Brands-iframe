@@ -138,21 +138,6 @@
         "more_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0056\/9632\/3651\/files\/Vidlogix-Catalog.pdf?v=1687482728"
       }
     },
-    "16374663436f00eb2c": {
-      "type": "background-video-text",
-      "settings": {
-        "subtitle": "Lifetime Support",
-        "title": "Expert advice, whenever you need it.",
-        "text": "<p>Curious about our products or not sure what you need? Talk to one of our smart home advisors anytime.<\/p>",
-        "button_label": "Meet the team",
-        "button_link": "shopify:\/\/pages\/about",
-        "button_chat": false,
-        "video_url": "https:\/\/vimeo.com\/434829420",
-        "color_border": "#f4f4f4",
-        "layout": "left",
-        "height": 550
-      }
-    },
     "3b32f828-d327-4c96-98d7-6c8310903c53": {
       "type": "testimonials-about",
       "blocks": {
@@ -243,6 +228,21 @@
         "logo": "shopify:\/\/shop_images\/logo_3369a90c-3de9-4c59-ac7a-047646105c00.png",
         "color_background": "#f8f6f7",
         "color_text": "#1c1d1d"
+      }
+    },
+    "16374663436f00eb2c": {
+      "type": "background-video-text",
+      "settings": {
+        "subtitle": "Lifetime Support",
+        "title": "Expert advice, whenever you need it.",
+        "text": "<p>Curious about our products or not sure what you need? Talk to one of our smart home advisors anytime.<\/p>",
+        "button_label": "Meet the team",
+        "button_link": "shopify:\/\/pages\/about",
+        "button_chat": false,
+        "video_url": "https:\/\/vimeo.com\/434829420",
+        "color_border": "#f4f4f4",
+        "layout": "left",
+        "height": 550
       }
     },
     "16374606876c4b0894": {
@@ -379,8 +379,8 @@
   "order": [
     "slideshow",
     "1637960314fb05cbb5",
-    "16374663436f00eb2c",
     "3b32f828-d327-4c96-98d7-6c8310903c53",
+    "16374663436f00eb2c",
     "16374606876c4b0894",
     "163746679950095452",
     "blog-posts",
