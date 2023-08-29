@@ -97,9 +97,11 @@
         <div class="trust-footer-text">Rated <b>{{ section.settings.average_rating }}</b> / 5 based on 
           <span style="text-decoration: underline">{{ section.settings.total_reviews }} reviews</span>. Showing our latest reviews.
         </div>
-        <div class="trust-footer-image">
-          <img src="{{ section.settings.logo | img_url: '400x' }}">
-        </div>
+        {% if section.settings.logo %}
+          <div class="trust-footer-image">
+            <img src="{{ section.settings.logo | img_url: '400x' }}">
+          </div>
+        {% endif %}
       </a>
     </div>
 
